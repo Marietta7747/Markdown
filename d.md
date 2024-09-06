@@ -352,7 +352,7 @@ akkor a vissza gomb segítségével megtehetjük ezt.
 ---   
 <center>11</center>  
 <br>
-<img style="float:left" src="C:\Users\marie\Downloads\Markdown-main\Markdown-main\markdown_feladat_kepek\15.png">
+<img style="float:left" src="markdown_feladat_kepek\15.png">
 Menüben található profil opció kiválasztása esetén ide kerülünk. Itt is megtalálható a vissza gomb természetesen.<br>  
 
 Ezen felül megtalálható a felhasználó által, regisztrációnál
@@ -364,7 +364,7 @@ Alul megtalálható két opció:<br>
 listájához visz.  
 
 <br><br><br><br><br><br><br>
-<img style="float:right" src="C:\Users\marie\Downloads\Markdown-main\Markdown-main\markdown_feladat_kepek\16.png"> 
+<img style="float:right" src="markdown_feladat_kepek\16.png"> 
 Amennyiben a hozzászolt topic opciót vagy a mentett topic
 opciót választottuk, ez a kép tárul elénk.<br><br>
 Itt a program egy listába összeszedi az összes felhasználó által
