@@ -19,33 +19,33 @@ Kovács László Szoftverfejlesztő
 ---
 
 ### Tartalom
-- 1. [Összefoglaló](#osszefoglalo)
-    - 1.1 [Záródolgozat téma kiválasztása](#zarodolgozat-tema-kivalasztasa)
-    - 1.2 [Alkalmazás tervezése](#alkalmazas-tervezese)
-    - 1.3 [Programnyelv kiválasztása, előkészületek](#programnyelv-kivalasztasa-elokeszuletek)
-    - 1.4 [Adatbázis](#adatbazis)
-    - 1.5 [Köszönetnyilvánítás](#koszonetnyilvanitas)
-- 2. [Felhasználó dokumentáció](#felhasznalo-dokumentacio)
-    - 2.1 [Rendszer követelmény](#rendszer-kovetelmeny)
-    - 2.2 [Alkalmazás telepítése](#alkalmazas-telepitese)
-    - 2.3 [Alkalmazás használata](#alkalmazas-hasznalata) 
-    - 2.4 [Gyakran ismételt kérdések](#gyakran-ismetelt-kerdesek)
-    - 2.5 [A program készítőjének elérhetősége](#elerhetoseg)
-- 3. [Fejlesztői dokumentáció](#fejlesztoi-dokumentacio)
-    - 3.1 [Adatbázis](#adatbazis-bovebben)
-        - 3.1.1 [Account tábla](#account-tabla)
-        - 3.1.2 [Hozzaszolas tábla](#hozzaszolas-tabla)
-        - 3.1.3 [Mentetttopic tábla](#mentetttopic-tabla)
-        - 3.1.4 [topic tábla](#topic-tabla)
-    - 3.2 [Forrás kód](#forras-kod)
-    - 3.3 [Java - php kapcsolat](#java-php-kapcsolat)
-    - 3.4 [PHP kódok](#php-kodok)
-    - 3.5 [Főbb változók](#fobb-valtozok)
-    - 3.6 [Admin felület](#admin-felulet)
-    - 3.7 [Fejlesztési lehetőségek](#fejlesztesi-lehetosegek)
-    - 3.8 [Milyen nehézségekkel találkoztam?](#nehezsegek)
-    - 3.9 [Tesztdokumentáció](#tesztdokumentacio)
-- 4. [Irodalomjegyzék](#irodalomjegyzek)  
+- 1. [Összefoglaló](#osszefoglalo)....................................................................................................................................1
+    - 1.1 [Záródolgozat téma kiválasztása](#zarodolgozat-tema-kivalasztasa)......................................................................................1
+    - 1.2 [Alkalmazás tervezése](#alkalmazas-tervezese)...........................................................................................................1
+    - 1.3 [Programnyelv kiválasztása, előkészületek](#programnyelv-kivalasztasa-elokeszuletek)..................................................................3
+    - 1.4 [Adatbázis](#adatbazis)...................................................................................................................................3
+    - 1.5 [Köszönetnyilvánítás](#koszonetnyilvanitas)..............................................................................................................3
+- 2. [Felhasználó dokumentáció](#felhasznalo-dokumentacio).......................................................................................................4
+    - 2.1 [Rendszer követelmény](#rendszer-kovetelmeny)........................................................................................................4
+    - 2.2 [Alkalmazás telepítése](#alkalmazas-telepitese)..........................................................................................................4
+    - 2.3 [Alkalmazás használata](#alkalmazas-hasznalata)........................................................................................................7
+    - 2.4 [Gyakran ismételt kérdések](#gyakran-ismetelt-kerdesek)................................................................................................13
+    - 2.5 [A program készítőjének elérhetősége](#elerhetoseg).........................................................................13
+- 3. [Fejlesztői dokumentáció](#fejlesztoi-dokumentacio)............................................................................................................14
+    - 3.1 [Adatbázis](#adatbazis-bovebben)...................................................................................................................................14
+        - 3.1.1 [Account tábla](#account-tabla)........................................................................................................14
+        - 3.1.2 [Hozzaszolas tábla](#hozzaszolas-tabla)................................................................................................15
+        - 3.1.3 [Mentetttopic tábla](#mentetttopic-tabla)..............................................................................................15
+        - 3.1.4 [topic tábla](#topic-tabla)...............................................................................................................16
+    - 3.2 [Forrás kód](#forras-kod).................................................................................................................................17
+    - 3.3 [Java - php kapcsolat](#java-php-kapcsolat).............................................................................................................17
+    - 3.4 [PHP kódok](#php-kodok)................................................................................................................................18
+    - 3.5 [Főbb változók](#fobb-valtozok)..........................................................................................................................19
+    - 3.6 [Admin felület](#admin-felulet)...........................................................................................................................20
+    - 3.7 [Fejlesztési lehetőségek](#fejlesztesi-lehetosegek)........................................................................................................22
+    - 3.8 [Milyen nehézségekkel találkoztam?](#nehezsegek)..............................................................................22
+    - 3.9 [Tesztdokumentáció](#tesztdokumentacio)...............................................................................................................23
+- 4. [Irodalomjegyzék](#irodalomjegyzek)............................................................................................................................24  
 
 ---
 <br>
@@ -69,24 +69,26 @@ két opciót tartalmaz: Belépés vagy Regisztráció.
 Ezt végül elvetettem, ugyanis számomra jelentéktelenné vált.  
 <br><br><br><br>
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\1.png">  
+<img style="float:left" src="markdown_feladat_kepek\1.png">  
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ---  
+<center>1</center>
 <br>
 
 A következő tervezési lépés nem más, mint a topic kiválasztó rész:  
-<center><img src="C:\Users\user\Documents\markdown_feladat_kepek\2.png">  </center>
+<center><img src="markdown_feladat_kepek\2.png">  </center>
 
 Végül a topichoz való hozzászólást terveztem meg  
 
-<center><img src="C:\Users\user\Documents\markdown_feladat_kepek\3.png">  </center>  
+<center><img src="markdown_feladat_kepek\3.png">  </center>  
 
 <br>  
 
 
----
+---  
+<center>2</center>
 <br>  
 
 #### **1.3 Programnyelv kiválasztása, előkészületek**  {#programnyelv-kivalasztasa-elokeszuletek}  
@@ -105,7 +107,7 @@ Az adatbázis létrehozására, illetve annak szerkesztéséhez az XAMPP program
 ami teljesen megfelelt mindenre, amire szükségem lehetett.<br><br>
 Természetesen az adatbázissal kapcsolatban is rendelkeztem egy tervvel.
 
-<center><img src="C:\Users\user\Documents\markdown_feladat_kepek\4.png">  </center>
+<center><img src="markdown_feladat_kepek\4.png">  </center>
 <br>
 
 #### **1.5 Köszönetnyilvánítás**  {#koszonetnyilvanitas}  
@@ -116,6 +118,7 @@ segítséget és támogatást kaptam Kovács László tanár úrtól, gyakorlati
 <br><br><br><br><br><br>
 
 ---  
+<center>3</center>
 <br>  
 
 ### **<u>2 Felhasználó dokumentáció</u>**  {#felhasznalo-dokumentacio}  
@@ -128,7 +131,7 @@ segítséget és támogatást kaptam Kovács László tanár úrtól, gyakorlati
 
 #### **2.2 Alkalmazás telepítése**  {#alkalmazas-telepitese}  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\5.png">
+<img style="float:left" src="markdown_feladat_kepek\5.png">
 
 
 <p>Miután kiválasztottuk, hogy melyik eszközre
@@ -136,23 +139,24 @@ szeretnénk telepíteni, utána indítsunk el bármilyen
 böngészőt rajta. Huawei készülékeken egy kék
 bolygó ikon jelzi ezt.</p>  
 <br><br>
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\6.png">
+<img style="float:right" src="markdown_feladat_kepek\6.png">
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <p style="text-align:left">Megnyitás után a képernyő tetején található keresőbe
 írjuk be ezt a címet : szdaniel.hu  </p>
 
 <br><br>  
 
----
+---  
+<center>4</center>
 <br>
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\23.jpg">
+<img style="float:left" src="markdown_feladat_kepek\23.jpg">
 
 <p>Amennyiben jól írtuk be a címet, abban az esetben ez az
 oldal lesz látható számunkra. Itt a ’Letöltés’ feliratú gombra
 kattintva elindíthatjuk a letöltést.  <p>
   
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\24.jpg">
+<img style="float:right" src="markdown_feladat_kepek\24.jpg">
 <br><br><br><br><br>
 <p style="text-align:right">Böngészőtől függően megkérdezi,
 hogy biztosan le szeretnénk-e tölteni
@@ -160,7 +164,7 @@ ezt a fájlt. A ’download’ gombra
 kattintva ezt engedélyezzük és le is
 tölti nekünk. </p> 
 <br><br><br><br><br><br><br><br>
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\25.jpg">
+<img style="float:left" src="markdown_feladat_kepek\25.jpg">
 <br>
 
 <p>Miután letöltöttük utána megkérdezi a rendszer, hogy
@@ -172,9 +176,10 @@ kattintva engedélyezzük a telepítést.</p>
 
 
 ---  
+<center>5</center>
 <br>
 
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\26.jpg">
+<img style="float:right" src="markdown_feladat_kepek\26.jpg">
 
 Engedélyezés után nincs más dolgunk, mint telepíteni az
 alkalmazást.
@@ -183,7 +188,7 @@ rendszer esetén ’telepítés’) gombra és a rendszer utána telepíti
 nekünk a programot. 
 <br><br><br><br><br><br><br><br>
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\27.jpg">
+<img style="float:left" src="markdown_feladat_kepek\27.jpg">
 <br><br><br><br><br><br><br><br><br>
 Amennyiben mindent jól csináltunk és a telepítés sikeres,
 abban az esetben egy zöld pipával jelzi a program, hogy
@@ -193,14 +198,15 @@ Ez után kiléphetünk a telepítési felületről.
 <br><br><br><br><br><br><br><br><br><br><br>  
 
 ---  
+<center>6</center>
 <br>
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\28.jpg">
+<img style="float:left" src="markdown_feladat_kepek\28.jpg">
 Az alkalmazást a többi ikon mellet fogjuk megtalálni.
 Ezt később mozgathatjuk is, amennyiben a
 felhasználónak igénye van rá.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\29.jpg">
+<img style="float:right" src="markdown_feladat_kepek\29.jpg">
 <br><br><br><br><br><br><br>  
 
 #### **2.3 Alkalmazás használata**  {#alkalmazas-hasznalata}  
@@ -217,11 +223,12 @@ a regisztrációkor megadott emailt és jelszót beírva majd a
 <br><br><br>  
 
 ---  
+<center>7</center>
 <br>  
 
 Ha nem adjuk meg valamelyik információt, avagy hibásan adjuk meg, akkor a program ezt jelzi
 nekünk. <br><br>
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\30.jpg">
+<img style="float:left" src="markdown_feladat_kepek\30.jpg">
 Regisztrációkor 3 adatot kell megadnunk: Egy felhasználó
 nevet ezt a ’Nick név’ felirat alá írjuk (alatta lévő vízszintes
 vonalra kattintva írhatunk oda), egy email cím, amit az ’email
@@ -241,9 +248,10 @@ Amennyiben még is van regisztrált fiókunk, abban az esetben a
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
 
 ---  
+<center>8</center>
 <br><br>  
 
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\31.jpg">
+<img style="float:right" src="markdown_feladat_kepek\31.jpg">
 Belépés vagy regisztráció után, a menüben találjuk
 magunkat. Itt három opció közül választhatunk. Kiválasztás
 után kattintsunk a kiválasztott opcióra.
@@ -264,8 +272,8 @@ meg.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
 
 ---
- 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\32.jpg">  
+<center>9</center>
+<img style="float:left" src="markdown_feladat_kepek\32.jpg">  
 <br>
 A topic fület kiválasztva ez a kép tárul elénk. Ha úgy
 döntünk, hogy inkább visszamennénk, abban az esetben a ’vissza’
@@ -281,7 +289,7 @@ kattintsunk rá és a program annak a topicnak a hozzászólásaihoz
 visz minket.
 <br><br><br><br><br><br>  
 
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\33.jpg">
+<img style="float:right" src="markdown_feladat_kepek\33.jpg">
   
   
 Új topic létrehozásánál ez az ablak tárul elénk. Itt is van opció
@@ -304,8 +312,8 @@ program hibát jelez.
 <br><br><br>  
 
 ---
-
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\34.jpg">
+<center>10</center>
+<img style="float:left" src="markdown_feladat_kepek\34.jpg">
 <br>
 Itt is megtalálható az eddig sokszor használt vissza gomb,
 amellyel visszaléphetünk a topic kiválasztó menühöz.<br>  
@@ -328,7 +336,7 @@ is olvashassa azt. Amennyiben nem töltjük ki a hozzászólás
 részt, abban az esetben a program nem küld el
 semmit se.<br>  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\35.jpg">
+<img style="float:left" src="markdown_feladat_kepek\35.jpg">
 Amennyiben kiválasztottunk egy hozzászólást, abban az
 esetben ez a kép tárul elénk.<br><br>  
 
@@ -341,17 +349,22 @@ Amennyiben vissza szeretnénk menni a többi hozzászóláshoz,
 akkor a vissza gomb segítségével megtehetjük ezt.  
 <br><br><br><br><br><br><br><br><br><br><br>  
 
----  
+---   
+<center>11</center>  
+<br>
+<img style="float:left" src="C:\Users\marie\Downloads\Markdown-main\Markdown-main\markdown_feladat_kepek\15.png">
+Menüben található profil opció kiválasztása esetén ide kerülünk. Itt is megtalálható a vissza gomb természetesen.<br>  
 
-Menüben található profil opció kiválasztása esetén ide kerülünk.
-Itt is megtalálható a vissza gomb természetesen.<br><br>
 Ezen felül megtalálható a felhasználó által, regisztrációnál
-megadott felhasználóneve és email címe.<br><br>
-Alul megtalálható két opció:<br><br>
+megadott felhasználóneve és email címe.<br>
+Alul megtalálható két opció:<br>  
+
 - Hozzászolt topics ami elvisz a általunk hozzászolt topicokhoz,
 - Illetve a mentett topics, ami az általunk elmentett topicok
-listájához visz.
+listájához visz.  
 
+<br><br><br><br><br><br><br>
+<img style="float:right" src="C:\Users\marie\Downloads\Markdown-main\Markdown-main\markdown_feladat_kepek\16.png"> 
 Amennyiben a hozzászolt topic opciót vagy a mentett topic
 opciót választottuk, ez a kép tárul elénk.<br><br>
 Itt a program egy listába összeszedi az összes felhasználó által
@@ -361,8 +374,10 @@ egyszerűen csak ki kell választania. Egy kattintással át viszi a
 felhasználót ahhoz a topichoz.<br><br><br><br>
 Természetesen itt sem ragad meg a felhasználó, hiszen az
 eddig megszokott vissza gomb itt is megtalálható.  
+<br><br><br><br><br><br>   
 
----
+---  
+<center>12</center>
 <br>  
 
 #### **2.4 Gyakran ismételt kérdések**  {#gyakran-ismetelt-kerdesek}  
@@ -386,6 +401,7 @@ Telefon szám: 06-30-812-8489
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
 
 ---  
+<center>13</center>
 <br>  
 
 ### **<u>3 Fejlesztői dokumentáció</u>**  {#fejlesztoi-dokumentacio}  
@@ -428,6 +444,7 @@ alkalmazásba.
 <br><br><br><br><br>  
 
 ---  
+<center>14</center>
 <br>  
 
 ###### 3.1.2 Hozzaszolas tábla  {#hozzaszolas-tabla}
@@ -475,7 +492,8 @@ nem hozom létre újra, hanem ezt az értéket 0-ra állítom.
 - 1- nem akarja látni  
 <br>  
 
----
+---  
+<center>15</center>
 <br>  
 
 ###### 3.1.4 topic tábla  {#topic-tabla}
@@ -505,7 +523,8 @@ információk).
 ’tnev’ Ez pedig a létrehozó által megadott topic név. Ezt fogja mindenki először meglátni.  
 <br><br><br><br><br><br><br><br><br><br><br><br>  
 
----
+---  
+<center>16</center>
 <br>  
 
 #### **3.2 Forrás kód**  {#forras-kod}  
@@ -523,7 +542,7 @@ A ’forráskódok’ mappában található egy ’gyakranhasznalt’ java class
 
 Ez 2 nagyon fontos változót tartalmaz.  
   
-  <img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\36.jpg"><br><br>
+  <img style="float:left" src="markdown_feladat_kepek\36.jpg"><br><br>
 
 Mivel külön fájlokban van a php-kód, illetve
 ezek egy webszerveren találhatóak, ezért
@@ -538,7 +557,7 @@ változó nevet kell tartalmaznia pl. ’email’ vagy ’felhasznalonev’, a m
 változót kell tartalmaznia pl. ’galuska@galuska.com’ vagy ’gali’. Ez után a ’putData’
 paranccsal el tudjuk indítani a php-t .    
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\37.jpg"><br><br><br>  
+<img style="float:left" src="markdown_feladat_kepek\37.jpg"><br><br><br>  
 
 
 Ezek után amennyiben jó elérési utat adtunk meg és a tömbök is rendben vannak, akkor a php
@@ -548,18 +567,19 @@ Ebben az esetben a jogát néztem meg egy felhasználónak. Először megnéztem
 felrakni, utána pedig azt, hogy sikerült-e hiba nélkül befejezni a php-t. Amennyiben ezek  
 <br>  
 
- ---
+ ---  
+ <center>17</center>
 <br>  
 
 sikeresen teljesülnek, abban az esetben egy putData.getResult() el megszerezhetjük a php ban
 echoval kiírt eredményeket.  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\38.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
+<img style="float:left" src="markdown_feladat_kepek\38.jpg"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
 
 
 Php oldalon az áthozott tömb változókat ’POST’ methoddal tudjuk használni.  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\39.jpg">  
+<img style="float:left" src="markdown_feladat_kepek\39.jpg">  
 <br><br>
 
 #### **3.4 PHP kódok**  {#php-kodok}  
@@ -569,11 +589,12 @@ megoldani a feladatokat. Minden php kódot három részre bontottam : ’Áthozo
 info’ és ’lekerdezes’. Erre azért volt szükség, hogy sokkal jobban lehessen tudni melyik változót
 hol hozom létre. Mikor teszteltem a php-kódókat, akkor egy új csoportot hoztam létre
 ’Próba’ként.
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\40.jpg">
+<img style="float:left" src="markdown_feladat_kepek\40.jpg">
 
 <br><br><br><br><br><br><br>  
 
----
+---  
+<center>18</center>
 <br>  
 
 Az áthozott infó csoportban azokat a változókat tárolom, amiket a java programból hoztam át
@@ -594,7 +615,7 @@ utána a java programban lekérdezzem.
 Nagyon fontos kiemelnem a ’profil’ class-t, hisz ebben nagyon sok fontos változót tároltam el
 annak érdekében, hogy ne keljen újra és újra lekérdeznem őket a szervertől.  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\41.jpg"><br><br><br><br><br>
+<img style="float:left" src="markdown_feladat_kepek\41.jpg"><br><br><br><br><br>
 A ’mail’ változó a felhasználónak az email címét tárolja el. A ’nev’ logikusan a felhasználó
 nevet menti el, emellett ’jogosultsag’ és az ’id’ a nevükből adódóan elmondják mit
 tartalmaznak.  
@@ -606,9 +627,10 @@ amit csak az adminok érhetnek el, ezt viszont csak akkor tudom megvizsgálni, h
 jogosultságát a felhasználónak.
 <br><br><br><br><br><br><br><br><br>  
 
----
+---  
+<center>19</center>
 <br>  
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\42.jpg"><br><br><br><br><br><br><br>  
+<img style="float:left" src="markdown_feladat_kepek\42.jpg"><br><br><br><br><br><br><br>  
 
 Ebben a kódsorban vizsgálom meg, hogy admin-e a felhasználó. Amennyiben admin, abban
 az esetben megjelenik az admin felülethez vezető gomb.
@@ -618,7 +640,7 @@ az esetben megjelenik az admin felülethez vezető gomb.
 Ez az adminoknak ad egy felületet a topicok és az emberek viselkedésének szabályozására.
 Amennyiben egy admin lép be az alkalmazásban, akkor így néz ki a menü:  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\43.jpg">
+<img style="float:left" src="markdown_feladat_kepek\43.jpg">
 
 Természetesen nem nagy varázslat egy gombot
 láthatatlanná tenni egy átlag felhasználó szeme elött.
@@ -632,9 +654,10 @@ a funkciókat, amiket egy áltag felhasználó és így nem kell
 átjelentkeznie egy normál fiókba.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  
 
----
+---  
+<center>20</center>
 <br><br>  
-<img style="float:right" src="C:\Users\user\Documents\markdown_feladat_kepek\44.jpg">
+<img style="float:right" src="markdown_feladat_kepek\44.jpg">
 Az admin felületre kattintva ezt fogjuk látni.
 Itt a nem admin jogosultsággal rendelkező
 felhasználóknak a neve található.
@@ -643,11 +666,12 @@ embernek az információit találja majd meg.
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Ha rá mentünk egy névre ez a kép tárul elénk:
-<center><img src="C:\Users\user\Documents\markdown_feladat_kepek\45-46.jpg"></center>
+<center><img src="markdown_feladat_kepek\45-46.jpg"></center>
 <br>  
 
 
----
+---  
+<center>21</center>
 <br>  
 
 Az eddigi információk mellet alul ki írja a felhasználó által írt hozzászólásokat a könnyebb
@@ -684,26 +708,28 @@ Az elején nem is gondoltam arra, hogy majd php- val kötöm össze az alkalmaz�
 kutató munkám eredménye az lett, hogy ez a legkényelmesebb megoldás számomra.
 <br><br><br><br><br><br><br><br>  
 
----
+---  
+<center>22</center>
 <br>  
 
 #### **3.9 Tesztdokumentáció**  {#tesztdokumentacio}
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\47.jpg">
+<img style="float:left" src="markdown_feladat_kepek\47.jpg">
 Amennyiben belépésnél a felhasználó nem ad meg vagy rosszul ad
 meg bármilyen adatot abban az esetben a program jelzi.  
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Abban az esetben ha a felhasználó regisztrációnál nem ad meg bármilyen adatot abban az
 esetben a program ezt jelzi:  
-<center><img src="C:\Users\user\Documents\markdown_feladat_kepek\48.jpg"></center>
+<center><img src="markdown_feladat_kepek\48.jpg"></center>
 <br>  
 
----
+---  
+<center>23</center>
 <br>  
 
 Ha a felhasználó által beírt név / email cím foglalt abban az esetben a program ezt jelzi:  
 
-<img style="float:left" src="C:\Users\user\Documents\markdown_feladat_kepek\49.jpg">  
+<img style="float:left" src="markdown_feladat_kepek\49.jpg">  
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 Abban az esetben ha használat közben az internet elmegy abban az esetben a program nem
@@ -727,3 +753,4 @@ Jelszó : elso
 <br>  
 
 ---
+<center>24</center>
