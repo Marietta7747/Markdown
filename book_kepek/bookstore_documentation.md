@@ -122,48 +122,48 @@ Az alkalmazás célja a tranzakciók és a történeti adatok kezeléséhez szü
 
 | **Ábra szám** | **Ábra neve** |
 | --- | --- |
-| 1   | Tervezés és ütemezés |
-| 2   | Spirál modell |
-| 3   | Adatfolyam diagram szimbólumok |
-| 4   | 0 szintű adatfolyam diagram |
-| 5   | 1<sup>es</sup> szintű adatfolyam diagram |
-| 6   | BMS folyamatábra |
-| 7   | Felhasználói folyamatábra |
-| 8   | Use Case diagram szimbólumok |
-| 9   | Felhasználói Use Case diagram |
-| 10  | BMS Use Case diagram |
-| 11  | Tevékenységi diagram szimbólumok |
-| 12  | Felhasználói tevékenységi diagram |
-| 13  | Bejelentkezési rendszer tevékenységi diagramja |
-| 14  | E-R diagram szimbólumok |
-| 15  | E-R diagram a Könyvesbolt Menedzsment Rendszerhez |
-| 16  | BMS kezdőlap |
-| 17  | BMS kiválasztott kategória |
-| 18  | BMS könyvrészletek |
-| 19  | BMS bejelentkezési oldal |
-| 20  | BMS regisztrációs oldal |
-| 21  | BMS "Kapcsolat" oldal |
-| 22  | BMS kosár oldal nézőknek |
-| 23  | BMS rendelési oldal |
-| 24  | Bejelentkezett kezdőlap |
-| 25  | BMS felhasználói könyvrészletek |
-| 26  | BMS felhasználói kosár oldal |
-| 27  | BMS könyv keresés |
-| 28  | BMS admin bejelentkezési oldal |
-| 29  | BMS admin kezdőlap |
-| 30  | BMS új kategória hozzáadása |
-| 31  | BMS kategória megtekintése |
-| 32  | BMS új könyvek hozzáadása |
-| 33  | BMS könyvek megtekintése |
-| 34  | BMS kapcsolatfelvételi lista |
-| 35  | BMS felhasználói lista |
-| 36  | BMS jelszó visszaállítási oldal |
-| 37  | Fekete doboz tesztelés |
-| 38  | Szürke doboz tesztelés | 
-| 39  | Teszteset 1 |
-| 40  | Teszteset 2 |
-| 41  | Teszteset 3 |
-| 42  | Teszteset 4 |
+| 1   | [Tervezés és ütemezés](#planning_and_scheduling) |
+| 2   | [Spirál modell](spiral_model) |
+| 3   | [Adatfolyam diagram szimbólumok](data_flow_diagram_symbols) |
+| 4   | [0 szintű adatfolyam diagram](#0_level_data_flow_diagram) |
+| 5   | [1-es szintű adatfolyam diagram](#1_level_data_flow_diagram) |
+| 6   | [BMS folyamatábra](#BMS_flowchart_diagram) |
+| 7   | [Felhasználói folyamatábra](#user_flow_diagram) |
+| 8   | [Use Case diagram szimbólumok](#use_case_diagram_symbols) |
+| 9   | [Felhasználói Use Case diagram](#user_use_case_diagram) |
+| 10  | [BMS Use Case diagram](#BMS_use_case_diagram) |
+| 11  | [Tevékenységi diagram szimbólumok](#activity_diagram_symbols) |
+| 12  | [Felhasználói tevékenységi diagram](#user_activity_diagram) |
+| 13  | [Bejelentkezési rendszer tevékenységi diagramja](#login_system_activity_diagram) |
+| 14  | [E-R diagram szimbólumok](#E-R_diagram_symbols) |
+| 15  | [E-R diagram a Könyvesbolt Menedzsment Rendszerhez](#E-R_diagram_for_BMS) |
+| 16  | [BMS kezdőlap](#BMS_home_page) |
+| 17  | [BMS kiválasztott kategória](#BMS_selected_category) |
+| 18  | [BMS könyvrészletek](#BMS_book_details) |
+| 19  | [BMS bejelentkezési oldal](#BMS_login_page) |
+| 20  | [BMS regisztrációs oldal](#BMS_register_page) |
+| 21  | [BMS "Kapcsolat" oldal](#BMS_contact_us_page) |
+| 22  | [BMS kosár oldal nézőknek](#BMS_cart_page_viewers) |
+| 23  | [BMS rendelési oldal](#BMS_order_page) |
+| 24  | [Bejelentkezett kezdőlap](#logged_in_home_page) |
+| 25  | [BMS felhasználói könyvrészletek](#BMS_users_book_details) |
+| 26  | [BMS felhasználói kosár oldal](#BMS_users_cart_page) |
+| 27  | [BMS könyv keresés](#BMS_search_books) |
+| 28  | [BMS admin bejelentkezési oldal](#BMS_admin_login_page) |
+| 29  | [BMS admin kezdőlap](#BMS_admin_home_page) |
+| 30  | [BMS új kategória hozzáadása](#BMS_add_new_category) |
+| 31  | [BMS kategória megtekintése](#BMS_view_category) |
+| 32  | [BMS új könyvek hozzáadása](#BMS_add_new_books) |
+| 33  | [BMS könyvek megtekintése](#BMS_view_books) |
+| 34  | [BMS kapcsolatfelvételi lista](#BMS_contacted_list_books) |
+| 35  | [BMS felhasználói lista](#BMS_users_list) |
+| 36  | [BMS jelszó visszaállítási oldal](#BMS_forget_password_page) |
+| 37  | [Fekete doboz tesztelés](#black_box_testing) |
+| 38  | [Szürke doboz tesztelés](#gray_box_testing) | 
+| 39  | [Teszteset 1](#testcase_1) |
+| 40  | [Teszteset 2](#testcase_2) |
+| 41  | [Teszteset 3](#testcase_3) |
+| 42  | [Teszteset 4](#testcase_4) |
 
 
 
@@ -272,11 +272,15 @@ A rendszer két modult tartalmaz:
 - **RAM:** 512 MB vagy több (ajánlott).
 - **Merevlemez:** Legalább 45 MB szabad hely.
 - **Operációs rendszer:** Windows vagy nyílt forráskódú 32/64 bites rendszer.
-- Böngésző: Mozilla Firefox 2.0 / Internet Explorer 8.0 / Google Chrome.
+- **Böngésző:** Mozilla Firefox 2.0 / Internet Explorer 8.0 / Google Chrome.
+
+Itt van a megadott markdown kód magyarra fordítva:
 
 ### [2.5 Tervezés és ütemezés](#planning_and_scheduling)
 
-Minden fejlesztési szakasz különböző időt igényel. Az alábbi táblázat mutatja az egyes fázisok becsült idejét:
+A projektciklus minden szakaszához eltérő időtartamra lehet szükség, a projektciklus kulcsfontosságú aspektusainak sajátosságaitól függően, amelyek a fejlesztési folyamat során megjelennek. Az előfejlesztési szakasz követelményeinek összegyűjtése során beszerzett információk alapot adnak a követelmények elemzéséhez, és az információt tovább használják a tervezési fázisban.
+
+**Tervezés és ütemezés:**
 
 | ID | Feladat neve | Kezdés/Befejezés | Időtartam |
 | --- | --- | --- | --- |
@@ -287,6 +291,178 @@ Minden fejlesztési szakasz különböző időt igényel. Az alábbi táblázat 
 | 5   | Tesztelés | 2019.02.12 - 2019.02.17 | 6 nap |
 | 6   | Dokumentáció | 2019.02.18 - 2019.03.10 | 3 hét |
 
+<center>
+
+#### [(1. ábra: Tervezés és ütemezés)](#planning_and_scheduling)
+</center>
+
+A fenti ütemterv meghatározza az eltérő szoftverfejlesztési fázisokban szükséges becsült időt, figyelembe véve minden helyzeti tényezőt. A csapattagok technikailag készen állnak, elfogadva néhány napos képzést a technológiai ismeretek megszerzésére. Így a számítások szerint megvalósítható egy ilyen megoldás időben. "**Az ütemtervet minden fázis végén felülvizsgálják és frissítik, ahogy szükséges.**"
+
+### **Technológia rövid áttekintése**
+
+## **Frontend - HTML, CSS, BOOTSTRAP**
+
+1. **HTML**
+
+Az HTML a HYPER TEXT MARKUP LANGUAGE rövidítése, amely a legszélesebb körben használt nyelv a weben, weboldalak fejlesztésére. Az HTML azokat a módokat jelöli, ahogyan a weboldalak (HTML dokumentumok) összekapcsolódnak. Így a weboldalon elérhető hivatkozásokat hipertextnek nevezzük.
+
+Az HTML-t Berners-Lee hozta létre 1991 végén, de az "HTML 2.0" volt az első szabványos HTML specifikáció, amelyet 1995-ben publikáltak. Az HTML 4.01 az HTML egy jelentős verziója volt, amelyet 1999 végén publikáltak. Bár az HTML 4.01 verziót széles körben használják, jelenleg az HTML-5 verzió van, amely kiterjesztése az HTML 4.01-nek, és ezt a verziót 2012-ben publikálták.
+
+Ahogy a neve is sugallja, az HTML egy jelölőnyelv, amely azt jelenti, hogy HTML-t használsz arra, hogy egyszerűen "megjelenítsd" egy szöveges dokumentumot címkékkel, amelyek megmondják a webböngészőnek, hogyan szerkezti meg azt a megjelenítéshez.
+
+Eredetileg az HTML-t a dokumentumok struktúrájának meghatározására fejlesztették ki, mint például címek, bekezdések, listák stb., hogy megkönnyítsék a tudományos információk megosztását a kutatók között. Ma az HTML-t széles körben használják weboldalak formázására a HTML-ben elérhető különböző címkék segítségével.
+
+2. **CSS**
+
+A Cascading Style Sheet (CSS) egy stíluslap-nyelv, amelyet egy jelölőnyelvben írt dokumentum megjelenésének leírására használnak. Bár leggyakrabban a HTML és XHTML nyelvben írt weboldalak és felhasználói felületek vizuális stílusának beállítására használják, a nyelv bármely XML dokumentumra alkalmazható, beleértve a sima XML-t, SVG-t és XUL-t, és alkalmazható beszédbeli megjelenítésre, vagy más médiákon. A HTML és JavaScript mellett a CSS a legtöbb weboldal által használt alaptechnológia a vizuálisan vonzó weboldalak, webalkalmazások felhasználói felületeinek és sok mobilalkalmazás felhasználói felületeinek létrehozásához.
+
+A CSS-t elsősorban arra tervezték, hogy lehetővé tegye a dokumentumtartalom elválasztását a dokumentum megjelenésétől, beleértve olyan aspektusokat, mint a felépítés, színek és betűtípusok. Ez a szétválasztás javíthatja a tartalom hozzáférhetőségét, nagyobb rugalmasságot és kontrollt biztosíthat a megjelenítési jellemzők megadásában, lehetővé teszi, hogy több HTML-oldal közös formázást oszthasson meg egy különálló .css fájlban megadott releváns CSS segítségével, és csökkenti a strukturális tartalomban a bonyolultságot és az ismétlést.
+
+A CSS specifikációit a World Wide Web Consortium (W3C) karbantartja. Az interneti médiatípus (MIME típus) text/css a CSS használatára bejegyzett RFC 2318 (1998. március) szerint. A W3C ingyenes CSS validációs szolgáltatást üzemeltet a CSS dokumentumok számára.
+
+A CSS-nek egyszerű szintaxisa van, és számos angol kulcsszót használ különböző stílusjellemzők neveinek megadására. A stíluslap szabályok listájából áll. Minden szabály vagy szabálykészlet egy vagy több kiválasztóból és egy deklarációs blokkból áll.
+
+3. **BOOTSTRAP**
+
+A Bootstrap egy ingyenes és nyílt forráskódú frontend webkeretrendszer weboldalak és webalkalmazások tervezésére. HTML- és CSS-alapú tervezési sablonokat tartalmaz tipográfiához, űrlapokhoz, gombokhoz, navigációhoz és egyéb felhasználói felületi komponensekhez, valamint opcionális JavaScript kiterjesztéseket. A legtöbb webkeretrendszertől eltérően a Bootstrap csak a frontend fejlesztéssel foglalkozik.
+
+A Bootstrap moduláris, és egy sor less stíluslapból áll, amelyek a készlet különböző komponenseit valósítják meg. Ezeket a stíluslapokat általában egy csomagba állítják össze, és weboldalakba illesztik, de az egyes komponensek külön beilleszthetők vagy eltávolíthatók. A Bootstrap számos konfigurációs változót biztosít, amelyek irányítják a különböző komponensek színét és párnázását.
+
+A Bootstrap 2 óta a Bootstrap dokumentáció egy testreszabási varázslót is tartalmaz, amely a kért komponensek és különböző beállítások alapján generálja a testreszabott Bootstrap verziót.
+
+A Bootstrap 4-től kezdve a stíluslapokhoz a less helyett a SCSS-t használják. Minden Bootstrap komponens HTML struktúrából, CSS deklarációkból és egyes esetekben kísérő JavaScript kódokból áll.
+
+## **Backend - PHP, MySQL**
+
+1. **PHP**
+
+A PHP Hypertext Pre-processor (PHP) egy programozási nyelv, amely lehetővé teszi a webfejlesztők számára, hogy dinamikus tartalmat hozzanak létre, amely interakcióba lép az adatbázisokkal. A PHP alapvetően webalapú szoftveralkalmazások fejlesztésére használják. Ez az útmutató segít a PHP alapjainak elsajátításában. A PHP egy kis nyílt forráskódú projektként indult, amely fokozatosan fejlődött, ahogy egyre több ember felfedezte hasznosságát. Rasmus Lerdorf 1994
+
+-ben adta ki a PHP első verzióját.
+
+- A PHP egy rekurzív mozaikszó, amely a "PHP: Hypertext Preprocessor"-t jelenti.
+- A PHP egy szerveroldali szkriptnyelv, amely be van ágyazva a HTML-be. Dinamikus tartalom, adatbázisok kezelése, munkamenetek nyomon követése, sőt egész e-kereskedelmi webhelyek létrehozására is használják.
+- Számos népszerű adatbázissal integrálva van, beleértve a MySQL, Postgre SQL, Oracle, Sybase, Informix és Microsoft SQL Server.
+- A PHP végrehajtása gyors, különösen, ha Apache modulként van lefordítva Unix környezetben. A MySQL szerver, amint elindult, még a nagyon bonyolult lekérdezéseket is rekordidő alatt hajtja végre, hatalmas eredményhalmazokkal.
+- A PHP támogatja a főbb protokollok széles választékát, például a POP3-at, IMAP-ot és LDAP-ot. A PHP4 hozzáadta a Java és a megosztott objektum architektúrák (COM és CORBA) támogatását, így a n-tiers fejlesztés lehetővé vált először.
+- A PHP megbocsátó: a PHP nyelv arra törekszik, hogy a lehető legmegbocsátóbb legyen.
+- A PHP szintaxisa C-szerű.
+
+2. **MySQL**
+
+A MySQL egy adatbázis, amelyet széles körben használnak adatok lekérdezésére, frissítésére és kezelésére adatbázisokban.
+
+A MySQL egy nyílt forráskódú RDBMS, amely az SQL-t használja az adatok feldolgozására az adatbázisban. A MySQL API-kat biztosít olyan nyelvekhez, mint a C, C++, Eiffel, JAVA, Perl, PHP és Python. A MySQL a leggyakrabban webalkalmazásokhoz és beágyazott alkalmazásokhoz használják, és népszerű alternatívává vált a tulajdonosi adatbázis-rendszerekhez képest, sebessége és megbízhatósága miatt. A MySQL UNIX, Windows és Mac OS alatt is futtatható.
+
+<center>
+
+### **Projekt elemzése és tervezése**
+
+A BMS kulcsfontosságú az online rendelés beállításához, hogy a vásárlók böngészhessenek a könyvkategóriák között. Ez egy kis léptékű projekt a BMS számára. Az alapötlet az, hogy a vásárlók bármikor bárhonnan vásárolhatnak könyveket készpénzért.
+</center>
+
+**Felhasználó**
+
+- A felhasználó regisztrálhat, bejelentkezhet, kijelentkezhet a rendszerből.
+- Különböző kategóriák között böngészhet és könyveket vásárolhat.
+- Kapcsolatba léphet az adminisztrátorral.
+- Könyveket adhat a kosárhoz.
+- Könyveket rendelhet.
+
+    **Funkcionalitás**
+
+    - Egyszerre egy vagy több felhasználó látogatja meg a weboldalt.
+
+    **Használhatóság**
+
+    - Ez a weboldal bármely böngészőben futtatható.
+
+    **Teljesítmény**
+
+    - A weboldal a felhasználó operációs rendszerének megfelelően működik.
+
+**Adminisztrátor**
+
+- Az adminisztrátor kezelheti a rendszert.
+- Könyveket biztosít.
+
+**Funkcionalitás**
+
+- Az adminisztrátor könyvet adhat hozzá vagy kezelheti a nyilvántartásokat.
+
+<center>
+
+## **Spirálmodell**
+
+A spirálmodell az iteratív fejlesztés ötletét ötvözi a vízesésmodell rendszerszerű, ellenőrzött aspektusaival. Ez a spirálmodell az iteratív fejlesztési folyamatmodellt és a soros lineáris fejlesztési modellt, azaz a vízesésmodellt kombinálja, nagyon nagy hangsúlyt fektetve a kockázatelemzésre. Lehetővé teszi a termék fokozatos kiadását vagy a fokozatos finomítást a spirál körüli minden iteráción keresztül.
+
+#### **Spirálmodell - Tervezés**
+
+A spirálmodell négy fázisból áll. Egy szoftverprojekt többször is áthalad ezeken a fázisokon, amelyeket spirális iterációknak nevezünk.
+
+#### **Azonosítás**
+
+Ez a fázis a üzleti követelmények összegyűjtésével kezdődik az alapvonal spirálban. A későbbi spirálokban, ahogy a termék érik, a rendszerkövetelmények, az alrendszerek követelményei és az egység követelményei mind ebben a fázisban történnek.
+
+Ez a fázis magában foglalja a rendszerkövetelmények megértését is, folyamatos kommunikáció révén a vevő és a rendszelemző között. A spirál végén a terméket az azonosított piacon telepítik.
+
+#### **Tervezés**
+
+A tervezési fázis az alapvonal spirálban a koncepcionális tervezéssel kezdődik, és magában foglalja az architektúrák tervezését, a modulok logikai tervezését, a fizikai terméktervezést és a végső tervezést a későbbi spirálokban.
+
+#### **Építés**
+
+Az építési fázis az aktuális szoftvertermék előállítását jelenti minden spirálban. Az alapvonal spirálban, amikor a termék csak elképzelés alatt áll, és a tervezés folyamatban van, egy POC (Proof of Concept) készül ebben a fázisban, hogy visszajelzést kapjon az ügyféltől.
+
+Ezután a következő spirálokban, ahol a követelmények és a tervezési részletek nagyobb világossággal bírnak, egy működő modellt, az úgynevezett buildet állítanak elő egy verziószámmal. Ezeket a build-eket visszajelzés céljából az ügyfélnek küldik.
+
+#### **Értékelés és kockázatelemzés**
+
+A kockázatelemzés magában foglalja a technikai megvalósíthatóság és a menedzsment kockázatok azonosítását, becslését és nyomon követését, például az ütemezési csúszást és a költségvetési túllépést. A build tesztelése után, az első iteráció végén, az ügyfél értékeli a szoftvert, és visszajelzést ad.
+
+A következő illusztráció a Spirálmodellt képviseli, felsorolva a tevékenységeket minden fázisban.
+</center>
+
+![kep7](7.jpg)
+<center>
+
+#### [(2. ábra: Spirálmodell)](#spiral_model)
+
+Az ügyfél értékelése alapján a szoftverfejlesztési folyamat belép a következő iterációba, és ezt követően a lineáris megközelítést követi az ügyfél által javasolt visszajelzés megvalósításához. Az iterációs folyamat a spirál mentén folytatódik a szoftver életciklusa során.
+
+**A Spirálmodell alkalmazása**
+
+A Spirálmodell széles körben használják a szoftveriparban, mivel összhangban van bármely termék természetes fejlődési folyamatával, azaz a tanulással és a megvalósítással, amely minimális kockázatot jelent az ügyfél és a fejlesztőcégek számára is.
+
+A következő pontok magyarázzák a Spirálmodell tipikus használatát −
+
+- Amikor költségvetési korlátozás van, és a kockázatelemzés fontos.
+- Közepes és magas kockázatú projektekhez.
+- Hosszú távú projektelkötelezettség, mivel a gazdasági prioritások változásai miatt a követelmények idővel változhatnak.
+- Az ügyfél nem biztos a követelményeiben, ami általában a helyzet.
+- A követelmények bonyolultak és értékelést igényelnek a világosság érdekében.
+- Új termékvonal, amelyet fokozatosan kell kiadni, hogy elegendő ügyfélvisszajelzést kapjon.
+- Jelentős változások várhatóak a termék fej
+
+lesztési ciklusa során.
+
+**A Spirálmodell előnyei és hátrányai**
+
+A spirális életciklus modell előnye az, hogy lehetővé teszi a termék elemeinek hozzáadását, amikor azok elérhetővé válnak vagy ismertek. Ez biztosítja, hogy ne legyen ellentmondás a korábbi követelményekkel és a tervezéssel.
+
+Ez a módszer összhangban áll azokkal a megközelítésekkel, amelyek több szoftver build-et és kiadást tartalmaznak, lehetővé téve a zökkenőmentes átmenetet egy karbantartási tevékenységhez. E módszer másik pozitív aspektusa, hogy a spirálmodell korai felhasználói részvételt kényszerít a rendszerfejlesztési erőfeszítés során.
+
+Másrészt, nagyon szigorú irányításra van szükség az ilyen termékek befejezéséhez, és fennáll a kockázat, hogy a spirált határozatlan hurokba futtatják. Tehát a változások irányításának és a változtatási kérelmek mértékének figyelembevétele nagyon fontos a termék sikeres fejlesztéséhez és telepítéséhez.
+
+A Spirál SDLC modell előnyei a következők −
+
+1. A változó követelmények figyelembevételére képes.
+2. Lehetővé teszi a prototípusok széleskörű használatát.
+3. A követelmények pontosabban rögzíthetők.
+4. A felhasználók korán látják a rendszert.
+5. A fejlesztés kisebb részekre osztható, és a kockázatos részek korábban fejleszthetők, ami segít a kockázatkezelésben.
+
+</center>   
 
 # 3. fejezet
 
@@ -324,7 +500,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 |  ![kep10](10.JPG)   | **Bemenet / Kimenet** | Az adatok bevitelére vagy kivitelére szolgál. |
 <center>  
 
-#### (3. ábra: Adatfolyam-diagram szimbólumok)
+#### [(3. ábra: Adatfolyam-diagram szimbólumok)](#data_flow_diagram_symbols)
 
 ### 0. szintű DFD (Weboldal áramlás diagram)
 </center>  
@@ -333,7 +509,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 
 <center>  
 
-#### (4. ábra: 0. szintű adatfolyam-diagram)
+#### [(4. ábra: 0. szintű adatfolyam-diagram)](#0_level_data_flow_diagram)
 
 
 ### 1. szintű DFD (Weboldal áramlás diagram)
@@ -341,7 +517,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 
 ![kep12](12.JPG)
 
-#### (5. ábra: 1<sup>st</sup> szintű adatfolyam-diagram)
+#### [(5. ábra: 1-es szintű adatfolyam-diagram)](#1_level_data_flow_diagram)
   
 
 ### Folyamatábra
@@ -349,13 +525,13 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 
 ![kep13](13.jpg)  
 
-#### (6. ábra: BMS folyamatábra)
+#### [(6. ábra: BMS folyamatábra)](#BMS_flowchart_diagram)
 
 ### Felhasználói áramlás diagram
 
 ![kep14](14.jpg)
 
-#### (7. ábra: Felhasználói áramlás diagram)
+#### [(7. ábra: Felhasználói áramlás diagram)](#user_flow_diagram)
 </center>  
 
 ### 2. Esetdiagram
@@ -365,7 +541,7 @@ Az esetdiagram egy olyan forgatókönyvek halmaza, amelyek leírják a felhaszn�
 
 ![kep15](15.jpg)
 
-#### (8. ábra: Esetdiagram szimbólumok)
+#### [(8. ábra: Esetdiagram szimbólumok)](#use_case_diagram_symbols)
 
 Egy színész egy felhasználót vagy egy másik rendszert képvisel, amely interakcióba lép a modellezett elemmel. Az eset a rendszer külső nézete, amely egy olyan műveletet képvisel, amelyet a felhasználó végrehajthat egy feladat teljesítéséhez.
 
@@ -373,13 +549,13 @@ Egy színész egy felhasználót vagy egy másik rendszert képvisel, amely inte
 
 ![kep16](16.jpg)
 
-#### (9. ábra: Felhasználói esetdiagram)
+#### [(9. ábra: Felhasználói esetdiagram)](#user_use_case_diagram)
 
 ### BMS esetdiagram
 
 ![kep17](17.JPG)
 
-#### (10. ábra: BMS esetdiagram)
+#### [(10. ábra: BMS esetdiagram)](#BMS_use_case_diagram)
 
 ### 3. Tevékenységdiagram
 
@@ -397,19 +573,19 @@ A tevékenységdiagram alapvetően egy folyamatábra, amely a tevékenységek k�
 | Elágazás szimbólum | ![kep24](24.JPG) | Egy tevékenység áramlását osztja fel két párhuzamos tevékenységre. Több nyílvonal jelzi az elágazást. |
 <center>  
 
-#### (11. ábra: Tevékenységdiagram szimbólumok)
+#### [(11. ábra: Tevékenységdiagram szimbólumok)](#activity_diagram_symbols)
 
 ### Felhasználói tevékenységdiagram
 
 ![kep25](25.JPG)
 
-#### (12. ábra: Felhasználói tevékenységdiagram)
+#### [(12. ábra: Felhasználói tevékenységdiagram)](#user_activity_diagram)
 
 ### Bejelentkezési rendszer tevékenységdiagramja
 
 ![kep26](26.JPG)
 
-#### (13. ábra: Bejelentkezési rendszer tevékenységdiagramja)
+#### [(13. ábra: Bejelentkezési rendszer tevékenységdiagramja)](#login_system_activity_diagram)
 
 ### E-R diagram
 
@@ -425,13 +601,13 @@ Az E-R diagramban három fő komponens található:
 |   ![kep29](29.JPG)  | Kapcsolat | A kapcsolat az entitások közötti viszonyt írja le. |
 <center>  
 
-#### (14. ábra: E-R diagram szimbólumok)
+#### [(14. ábra: E-R diagram szimbólumok)](#E-R_diagram_symbols)
 
 ### E-R diagram egy könyvkereskedés menedzsment rendszerhez
 
 ![kep30](30.JPG)
 
-#### (15. ábra: E-R diagram egy könyvkereskedés menedzsment rendszerhez)
+#### [(15. ábra: E-R diagram egy könyvkereskedés menedzsment rendszerhez)](#E-R_diagram_for_BMS)
 </center>  
 
 
@@ -548,7 +724,7 @@ A BMS főoldala bejelentkezett felhasználó nélkül.
 
 <center>  
 
-#### (16. ábra: BMS főoldal)
+#### [(16. ábra: BMS főoldal)](#BMS_home_page)
 </center>  
 
 ###### 2. **Kiválasztott Kategória**
@@ -563,7 +739,7 @@ Nyomozó kategória könyvei
   
 <center>  
 
-#### (17. ábra: BMS kiválasztott kategória)
+#### [(17. ábra: BMS kiválasztott kategória)](#BMS_selected_category)
 </center>  
 
 ###### 3. **Könyv Részletek (Bejelentkezés Előtt)**
@@ -576,7 +752,7 @@ A látogatók nem tudnak könyveket a kosárba tenni.
 
 ![kep5](5.jpg)
 
-#### (18. ábra: BMS könyv részletei)
+#### [(18. ábra: BMS könyv részletei)](#BMS_book_details)
 </center>  
 
 ###### 4. **Látogató Bejelentkezési Oldal**
@@ -587,7 +763,7 @@ Bejelentkezési oldal a nézőknek.
 
 ![kep6](6.JPG) 
 
-#### (19. ábra: BMS bejelentkezési oldal)
+#### [(19. ábra: BMS bejelentkezési oldal)](#BMS_login_page)
 </center>  
 
 ###### 5. **Regisztrációs Oldal**
@@ -598,7 +774,7 @@ Regisztrációs oldal a nézőknek.
 
 ![kep31](31.JPG) 
 
-#### (20. ábra: BMS regisztrációs oldal)
+#### [(20. ábra: BMS regisztrációs oldal)](#BMS_register_page)
 </center>  
 
 ###### 6. **Kapcsolatfelvételi Oldal**
@@ -607,7 +783,7 @@ Regisztrációs oldal a nézőknek.
 
 ![kep32](32.JPG) 
 
-#### (21. ábra: BMS kapcsolatfelvételi oldal)
+#### [(21. ábra: BMS kapcsolatfelvételi oldal)](#BMS_contact_us_page)
 </center>  
 
 ###### 7. **Kosár Oldal**
@@ -616,7 +792,7 @@ Regisztrációs oldal a nézőknek.
 
 ![kep33](33.JPG)
 
-#### (22. ábra: BMS kosár nézet a nézőknek)
+#### [(22. ábra: BMS kosár nézet a nézőknek)](#BMS_order_pagecart_page_viewers)
 </center>  
 
 ###### 8. **Rendelési Oldal**
@@ -627,7 +803,7 @@ Csak utánvétes fizetés elérhető a rendelésekhez.
 
 ![kep34](34.JPG) 
 
-#### (23. ábra: BMS rendelési oldal)
+#### [(23. ábra: BMS rendelési oldal)](#BMS_order_page)
 </center>  
 
 ###### 9. **Főoldal (Bejelentkezve)**
@@ -640,7 +816,7 @@ A felhasználó ki tud jelentkezni.
 
 ![kep35](35.JPG)  
 
-#### (24. ábra: BMS bejelentkezett oldal)
+#### [(24. ábra: BMS bejelentkezett oldal)](#logged_in_home_page)
 </center>  
 
 ###### 10. **Könyv Részletek (Bejelentkezve)**
@@ -653,7 +829,7 @@ Eltávolítva a bejelentkezés linkje.
 
 ![kep36](36.JPG) 
 
-#### (25. ábra: BMS felhasználók könyv részletei)
+#### [(25. ábra: BMS felhasználók könyv részletei)](#BMS_users_book_details)
 </center>  
 
 ###### 11. **Kosárba Tétele (Bejelentkezve)**
@@ -670,7 +846,7 @@ A felhasználók rendelhetnek könyveket.
 
 ![kep37](37.JPG)
 
-#### (26. ábra: BMS felhasználók kosár oldala)
+#### [(26. ábra: BMS felhasználók kosár oldala)](#BMS_users_cart_page)
 </center>  
 
 ###### 12. **Könyvek Keresése**
@@ -681,7 +857,7 @@ Könyvkereső funkció.
 
 ![kep38](38.JPG)
 
-#### (27. ábra: BMS könyvek keresése)
+#### [(27. ábra: BMS könyvek keresése)](#BMS_search_books)
 </center>  
 
 ###### 13. **Admin Bejelentkezési Oldal (Új Sablon)**
@@ -690,7 +866,7 @@ Könyvkereső funkció.
 
 ![kep39](39.JPG)
 
-#### (28. ábra: BMS admin bejelentkezési oldal)
+#### [(28. ábra: BMS admin bejelentkezési oldal)](#BMS_admin_login_page)
 </center>  
 
 ###### 14. **Admin Főoldal**
@@ -701,7 +877,7 @@ Könyvkereső funkció.
 
 ![kep40](40.JPG)
 
-#### (29. ábra: BMS admin főoldal)
+#### [(29. ábra: BMS admin főoldal)](#BMS_admin_home_page)
 </center>  
 
 ###### 15. **Kategória Hozzáadása (Admin)**
@@ -710,7 +886,7 @@ Könyvkereső funkció.
 
 ![kep41](41.JPG)
 
-#### (30. ábra: BMS új kategória hozzáadása)
+#### [(30. ábra: BMS új kategória hozzáadása)](#BMS_add_new_category)
 </center>  
 
 ###### 16. **Kategória Megtekintése**
@@ -721,7 +897,7 @@ Könyvek listája.
 
 ![kep432](42.JPG)
 
-#### (31. ábra: BMS kategória megtekintése)
+#### [(31. ábra: BMS kategória megtekintése)](#BMS_view_category)
 </center>  
 
 ###### 17. **Könyvek Hozzáadása**
@@ -730,7 +906,7 @@ Könyvek listája.
 
 ![kep43](43.JPG)
 
-#### (32. ábra: BMS új könyvek hozzáadása)
+#### [(32. ábra: BMS új könyvek hozzáadása)](#BMS_add_new_books)
 </center>  
 
 ###### 18. **Könyvek Megtekintése**
@@ -741,7 +917,7 @@ Könyvek listája az admin számára.
 
 ![kep44](44.JPG)
 
-#### (33. ábra: BMS könyvek megtekintése)
+#### [(33. ábra: BMS könyvek megtekintése)](#BMS_view_books)
 </center>  
 
 ###### 19. **Kapcsolatba Lépett Lista Megtekintése**
@@ -752,7 +928,7 @@ Azoknak az embereknek a listája, akik kapcsolatba léptek a kapcsolatfelvételi
 
 ![kep45](45.JPG)
 
-#### (34. ábra: BMS kapcsolatba lépett könyvek listája)
+#### [(34. ábra: BMS kapcsolatba lépett könyvek listája)](#BMS_contacted_list_books)
 </center>
 
 ###### 20. **Felhasználók Listája**
@@ -761,7 +937,7 @@ Azoknak az embereknek a listája, akik kapcsolatba léptek a kapcsolatfelvételi
 
 ![kep46](46.JPG)
 
-#### (35. ábra: BMS felhasználók listája)
+#### [(35. ábra: BMS felhasználók listája)](#BMS_users_list)
 </center>
 
 ###### 21. **Jelszó Elfelejtve**
@@ -770,7 +946,7 @@ Azoknak az embereknek a listája, akik kapcsolatba léptek a kapcsolatfelvételi
 
 ![kep47](47.JPG)
 
-#### (36. ábra: BMS jelszó elfelejtve oldal)
+#### [(36. ábra: BMS jelszó elfelejtve oldal)](#BMS_forget_password_page)
 </center>
 
 # 4. fejezet
@@ -791,7 +967,7 @@ Ez a tesztelési módszer alkalmazható a szoftvertesztelés minden szintjén, p
 
 ![kep48](48.JPG)
 
-#### (37. ábra: Fekete doboz tesztelés)
+#### [(37. ábra: Fekete doboz tesztelés)](#black_box_testing)
 </center>
 
 Ezt a módszert azért nevezzük így, mert a szoftverprogram a tesztelő szemében egy fekete doboznak tűnik; belülről nem lehet látni. Ez a módszer a következő kategóriákban próbál hibákat találni:
@@ -838,7 +1014,7 @@ A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazá
 
 ![kep49](49.JPG)
 
-#### (38. ábra: Szürke doboz tesztelés)
+#### [(38. ábra: Szürke doboz tesztelés)](#gray_box_testing)
 </center>
 
 ### [4.2 Tesztesetek](#test_cases)
@@ -870,7 +1046,7 @@ A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazá
 
 ![kep50](50.JPG)
 
-#### (39. ábra: Tesztesetek 1)
+#### [(39. ábra: Tesztesetek 1)](#testcase_1)
 </center>
 
 2. **Admin bejelentkezés**
@@ -879,7 +1055,7 @@ A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazá
 
 ![kep51](51.JPG)
 
-#### (40. ábra: Tesztesetek 2)
+#### [(40. ábra: Tesztesetek 2)](#testcase_2)
 </center>
 
 3. **Könyv hozzáadása**
@@ -888,7 +1064,7 @@ A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazá
 
 ![kep52](52.JPG)
 
-#### (41. ábra: Tesztesetek 3)
+#### [(41. ábra: Tesztesetek 3)](#testcase_3)
 </center>
 
 4. **Felhasználói regisztráció**
@@ -897,7 +1073,7 @@ A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazá
 
 ![kep53](53.JPG)
 
-#### (42. ábra: Tesztesetek 4)
+#### [(42. ábra: Tesztesetek 4)](#testcase_4)
 </center>
 
 ### [4.3 Megvalósítási megközelítések](#implementation_approaches)
