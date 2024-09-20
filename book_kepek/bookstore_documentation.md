@@ -9,7 +9,7 @@ Benyújtva **Smt. K.B. Parekh Számítástechnikai Főiskola-Mahuva** számára
 
 (A Maharaja Krishnakumarsinhji Bhavnagar Egyetemhez társult)
 
-![kep1](file:///C:/Users/user/Documents/book_kepek/1.jpg)
+![kep1](1.jpg)
 
 a követelmények részleges teljesítése érdekében a
 
@@ -120,50 +120,50 @@ Az alkalmazás célja a tranzakciók és a történeti adatok kezeléséhez szü
 
 ### Ábrák tartalma
 
-| **Ábra szám** | **Ábra neve** | **Oldalszám** |
-| --- | --- | --- |
-| 1   | Tervezés és ütemezés | 14  |
-| 2   | Spirál modell | 20  |
-| 3   | Adatfolyam diagram szimbólumok | 25  |
-| 4   | 0 szintű adatfolyam diagram | 25  |
-| 5   | 1<sup>es</sup> szintű adatfolyam diagram | 26  |
-| 6   | BMS folyamatábra | 26  |
-| 7   | Felhasználói folyamatábra | 27  |
-| 8   | Use Case diagram szimbólumok | 28  |
-| 9   | Felhasználói Use Case diagram | 29  |
-| 10  | BMS Use Case diagram | 30  |
-| 11  | Tevékenységi diagram szimbólumok | 32  |
-| 12  | Felhasználói tevékenységi diagram | 33  |
-| 13  | Bejelentkezési rendszer tevékenységi diagramja | 34  |
-| 14  | E-R diagram szimbólumok | 35  |
-| 15  | E-R diagram a Könyvesbolt Menedzsment Rendszerhez | 36  |
-| 16  | BMS kezdőlap | 41  |
-| 17  | BMS kiválasztott kategória | 42  |
-| 18  | BMS könyvrészletek | 43  |
-| 19  | BMS bejelentkezési oldal | 44  |
-| 20  | BMS regisztrációs oldal | 45  |
-| 21  | BMS "Kapcsolat" oldal | 46  |
-| 22  | BMS kosár oldal nézőknek | 46  |
-| 23  | BMS rendelési oldal | 47  |
-| 24  | Bejelentkezett kezdőlap | 48  |
-| 25  | BMS felhasználói könyvrészletek | 49  |
-| 26  | BMS felhasználói kosár oldal | 50  |
-| 27  | BMS könyv keresés | 51  |
-| 28  | BMS admin bejelentkezési oldal | 51  |
-| 29  | BMS admin kezdőlap | 52  |
-| 30  | BMS új kategória hozzáadása | 52  |
-| 31  | BMS kategória megtekintése | 53  |
-| 32  | BMS új könyvek hozzáadása | 53  |
-| 33  | BMS könyvek megtekintése | 54  |
-| 34  | BMS kapcsolatfelvételi lista | 54  |
-| 35  | BMS felhasználói lista | 55  |
-| 36  | BMS jelszó visszaállítási oldal | 55  |
-| 37  | Fekete doboz tesztelés | 57  |
-| 38  | Szürke doboz tesztelés | 59  |
-| 39  | Teszteset 1 | 60  |
-| 40  | Teszteset 2 | 61  |
-| 41  | Teszteset 3 | 61  |
-| 42  | Teszteset 4 | 62  |
+| **Ábra szám** | **Ábra neve** |
+| --- | --- |
+| 1   | Tervezés és ütemezés |
+| 2   | Spirál modell |
+| 3   | Adatfolyam diagram szimbólumok |
+| 4   | 0 szintű adatfolyam diagram |
+| 5   | 1<sup>es</sup> szintű adatfolyam diagram |
+| 6   | BMS folyamatábra |
+| 7   | Felhasználói folyamatábra |
+| 8   | Use Case diagram szimbólumok |
+| 9   | Felhasználói Use Case diagram |
+| 10  | BMS Use Case diagram |
+| 11  | Tevékenységi diagram szimbólumok |
+| 12  | Felhasználói tevékenységi diagram |
+| 13  | Bejelentkezési rendszer tevékenységi diagramja |
+| 14  | E-R diagram szimbólumok |
+| 15  | E-R diagram a Könyvesbolt Menedzsment Rendszerhez |
+| 16  | BMS kezdőlap |
+| 17  | BMS kiválasztott kategória |
+| 18  | BMS könyvrészletek |
+| 19  | BMS bejelentkezési oldal |
+| 20  | BMS regisztrációs oldal |
+| 21  | BMS "Kapcsolat" oldal |
+| 22  | BMS kosár oldal nézőknek |
+| 23  | BMS rendelési oldal |
+| 24  | Bejelentkezett kezdőlap |
+| 25  | BMS felhasználói könyvrészletek |
+| 26  | BMS felhasználói kosár oldal |
+| 27  | BMS könyv keresés |
+| 28  | BMS admin bejelentkezési oldal |
+| 29  | BMS admin kezdőlap |
+| 30  | BMS új kategória hozzáadása |
+| 31  | BMS kategória megtekintése |
+| 32  | BMS új könyvek hozzáadása |
+| 33  | BMS könyvek megtekintése |
+| 34  | BMS kapcsolatfelvételi lista |
+| 35  | BMS felhasználói lista |
+| 36  | BMS jelszó visszaállítási oldal |
+| 37  | Fekete doboz tesztelés |
+| 38  | Szürke doboz tesztelés | 
+| 39  | Teszteset 1 |
+| 40  | Teszteset 2 |
+| 41  | Teszteset 3 |
+| 42  | Teszteset 4 |
 
 
 
@@ -319,9 +319,9 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 
 | **Szimbólum** | **Név** | **Funkció** |
 | --- | --- | --- |
-|   ![kep8](file:///C:/Users/user/Documents/book_kepek/8.JPG)  | **Adatáramlás** | A folyamatok összekapcsolására használják. A nyílfej jelzi az adatáramlás irányát. |
-|   ![kep9](file:///C:/Users/user/Documents/book_kepek/9.JPG)  | **Folyamat** | A bemeneti adatokat kimeneti adatokra alakítja át. |
-|  ![kep10](file:///C:/Users/user/Documents/book_kepek/10.JPG)   | **Bemenet / Kimenet** | Az adatok bevitelére vagy kivitelére szolgál. |
+|   ![kep8](8.JPG)  | **Adatáramlás** | A folyamatok összekapcsolására használják. A nyílfej jelzi az adatáramlás irányát. |
+|   ![kep9](9.JPG)  | **Folyamat** | A bemeneti adatokat kimeneti adatokra alakítja át. |
+|  ![kep10](10.JPG)   | **Bemenet / Kimenet** | Az adatok bevitelére vagy kivitelére szolgál. |
 <center>  
 
 #### (3. ábra: Adatfolyam-diagram szimbólumok)
@@ -329,7 +329,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 ### 0. szintű DFD (Weboldal áramlás diagram)
 </center>  
 
-![kep11](file:///C:/Users/user/Documents/book_kepek/11.jpg)
+![kep11](11.jpg)
 
 <center>  
 
@@ -339,7 +339,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 ### 1. szintű DFD (Weboldal áramlás diagram)
   
 
-![kep12](file:///C:/Users/user/Documents/book_kepek/12.JPG)
+![kep12](12.JPG)
 
 #### (5. ábra: 1<sup>st</sup> szintű adatfolyam-diagram)
   
@@ -347,13 +347,13 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 ### Folyamatábra
 
 
-![kep13](file:///C:/Users/user/Documents/book_kepek/13.jpg)  
+![kep13](13.jpg)  
 
 #### (6. ábra: BMS folyamatábra)
 
 ### Felhasználói áramlás diagram
 
-![kep14](file:///C:/Users/user/Documents/book_kepek/14.jpg)
+![kep14](14.jpg)
 
 #### (7. ábra: Felhasználói áramlás diagram)
 </center>  
@@ -363,7 +363,7 @@ Az adatfolyam-diagramok (DFD) egy információs rendszer adatáramlásának graf
 Az esetdiagram egy olyan forgatókönyvek halmaza, amelyek leírják a felhasználó és a rendszer közötti interakciókat. Az esetdiagramok megjelenítik a színészek és az esetek közötti kapcsolatot. Az esetdiagram két fő eleme az esetek és a színészek.
 <center>  
 
-![kep15](file:///C:/Users/user/Documents/book_kepek/15.jpg)
+![kep15](15.jpg)
 
 #### (8. ábra: Esetdiagram szimbólumok)
 
@@ -371,13 +371,13 @@ Egy színész egy felhasználót vagy egy másik rendszert képvisel, amely inte
 
 ### Felhasználói esetdiagram
 
-![kep16](file:///C:/Users/user/Documents/book_kepek/16.jpg)
+![kep16](16.jpg)
 
 #### (9. ábra: Felhasználói esetdiagram)
 
 ### BMS esetdiagram
 
-![kep17](file:///C:/Users/user/Documents/book_kepek/17.JPG)
+![kep17](17.JPG)
 
 #### (10. ábra: BMS esetdiagram)
 
@@ -388,28 +388,26 @@ A tevékenységdiagram alapvetően egy folyamatábra, amely a tevékenységek k�
 
 | Szimbólum neve | Szimbólum | Leírás |
 | --- | --- | --- |
-| Kezdő szimbólum | ![kep18](file:///C:/Users/user/Documents/book_kepek/18.JPG) | A folyamat vagy a munkafolyamat kezdetét jelzi egy tevékenységdiagramon. Használható önmagában vagy egy jegyzet szimbólummal, amely magyarázza a kiindulópontot. |
-| Tevékenység szimbólum | ![kep19](file:///C:/Users/user/Documents/book_kepek/19.JPG) | A modellezett folyamat tevékenységeit jelöli. Ezek a szimbólumok, amelyek rövid leírásokat tartalmaznak a formán belül, a tevékenységdiagram fő építőkövei. |
-| Csatlakozó szimbólum |  ![kep20](file:///C:/Users/user/Documents/book_kepek/20.JPG)   | A tevékenység irányított áramlását mutatja. A befelé mutató nyíl egy lépést kezd egy tevékenységen belül; a lépés befejezése után az áramlás folytatódik a kifelé mutató nyíllal. |
-| Döntési szimbólum | ![kep21](file:///C:/Users/user/Documents/book_kepek/21.JPG) | Döntést jelképez, és mindig legalább két ága van feltétel szöveggel, amely lehetővé teszi a felhasználók számára, hogy megtekintsék a lehetőségeket. Ez a szimbólum a különböző folyamatok elágazását vagy összeolvadását jelöli, ahol a szimbólum keretként vagy tartóként működik. |
-| Záró szimbólum | ![kep22](file:///C:/Users/user/Documents/book_kepek/22.JPG) | A tevékenység záró állapotát jelöli, és a folyamat minden ágának befejezését képviseli. |
-| Egyesítő szimbólum/Szinkronizációs vonal | ![kep23](file:///C:/Users/user/Documents/book_kepek/23.JPG) | Két párhuzamos tevékenységet egyesít, és visszavezeti őket egy olyan folyamatba, ahol csak egy tevékenység zajlik egyszerre. Vastag függőleges vagy vízszintes vonallal ábrázolva. |
-| Elágazás szimbólum | ![kep24](file:///C:/Users/user/Documents/book_kepek/24.JPG) | Egy tevékenység áramlását osztja fel két párhuzamos tevékenységre. Több nyílvonal jelzi az elágazást. |
+| Kezdő szimbólum | ![kep18](18.JPG) | A folyamat vagy a munkafolyamat kezdetét jelzi egy tevékenységdiagramon. Használható önmagában vagy egy jegyzet szimbólummal, amely magyarázza a kiindulópontot. |
+| Tevékenység szimbólum | ![kep19](19.JPG) | A modellezett folyamat tevékenységeit jelöli. Ezek a szimbólumok, amelyek rövid leírásokat tartalmaznak a formán belül, a tevékenységdiagram fő építőkövei. |
+| Csatlakozó szimbólum |  ![kep20](20.JPG)   | A tevékenység irányított áramlását mutatja. A befelé mutató nyíl egy lépést kezd egy tevékenységen belül; a lépés befejezése után az áramlás folytatódik a kifelé mutató nyíllal. |
+| Döntési szimbólum | ![kep21](21.JPG) | Döntést jelképez, és mindig legalább két ága van feltétel szöveggel, amely lehetővé teszi a felhasználók számára, hogy megtekintsék a lehetőségeket. Ez a szimbólum a különböző folyamatok elágazását vagy összeolvadását jelöli, ahol a szimbólum keretként vagy tartóként működik. |
+| Záró szimbólum | ![kep22](22.JPG) | A tevékenység záró állapotát jelöli, és a folyamat minden ágának befejezését képviseli. |
+| Egyesítő szimbólum/Szinkronizációs vonal | ![kep23](23.JPG) | Két párhuzamos tevékenységet egyesít, és visszavezeti őket egy olyan folyamatba, ahol csak egy tevékenység zajlik egyszerre. Vastag függőleges vagy vízszintes vonallal ábrázolva. |
+| Elágazás szimbólum | ![kep24](24.JPG) | Egy tevékenység áramlását osztja fel két párhuzamos tevékenységre. Több nyílvonal jelzi az elágazást. |
 <center>  
 
 #### (11. ábra: Tevékenységdiagram szimbólumok)
 
 ### Felhasználói tevékenységdiagram
 
-![kep25](file:///C:/Users/user/Documents/book_kepek/25.JPG)
+![kep25](25.JPG)
 
 #### (12. ábra: Felhasználói tevékenységdiagram)
 
 ### Bejelentkezési rendszer tevékenységdiagramja
 
-![kep26](file:///C:/Users/user/Documents/book_ke
-
-pek/26.JPG)
+![kep26](26.JPG)
 
 #### (13. ábra: Bejelentkezési rendszer tevékenységdiagramja)
 
@@ -422,16 +420,16 @@ Az E-R diagramban három fő komponens található:
 
 | Szimbólum | Név | Leírás |
 | --- | --- | --- |
-|  ![kep27](file:///C:/Users/user/Documents/book_kepek/27.JPG)   | Entitás | Egy entitás lehet bármilyen tárgy, hely, személy vagy bármi más. |
-|  ![kep28](file:///C:/Users/user/Documents/book_kepek/28.JPG)   | Attribútum | Az attribútum egy entitás tulajdonságát vagy jellemzőjét írja le. |
-|   ![kep29](file:///C:/Users/user/Documents/book_kepek/29.JPG)  | Kapcsolat | A kapcsolat az entitások közötti viszonyt írja le. |
+|  ![kep27](27.JPG)   | Entitás | Egy entitás lehet bármilyen tárgy, hely, személy vagy bármi más. |
+|  ![kep28](28.JPG)   | Attribútum | Az attribútum egy entitás tulajdonságát vagy jellemzőjét írja le. |
+|   ![kep29](29.JPG)  | Kapcsolat | A kapcsolat az entitások közötti viszonyt írja le. |
 <center>  
 
 #### (14. ábra: E-R diagram szimbólumok)
 
 ### E-R diagram egy könyvkereskedés menedzsment rendszerhez
 
-![kep30](file:///C:/Users/user/Documents/book_kepek/30.JPG)
+![kep30](30.JPG)
 
 #### (15. ábra: E-R diagram egy könyvkereskedés menedzsment rendszerhez)
 </center>  
@@ -540,431 +538,426 @@ Az összes tábla részletei és mezői:
 | O_mobile | Bigint(20) | A felhasználó mobiltelefonszámának tárolása |
 | O_rid | Int(8) | A regisztrációs azonosító tárolása |
 
-### [3.3 Input/Output Design](#input_output_design)
+### [3.3 Beviteli/Kimeneti Tervezés](#input_output_design)
 
-###### 1. **Home Page**
+###### 1. **Főoldal**
 
-Home Page of BMS without logged in User.
+A BMS főoldala bejelentkezett felhasználó nélkül.
 
 ![kep3](3.jpg)
 
-
 <center>  
 
-#### (Figure 16 : BMS Home Page)
+#### (16. ábra: BMS főoldal)
 </center>  
 
+###### 2. **Kiválasztott Kategória**
 
-###### 2. **Selected Category**
+A Nyomozó kategória van kiválasztva.
 
-Detective Category is selected.
-
-Shows the Books of Detective Category.
+Megjeleníti a Nyomozó kategória könyveit.
 
 ![kep4](4.jpg)
 
-Books of Detective Category
+Nyomozó kategória könyvei
   
 <center>  
 
-#### (Figure 17 : BMS Selected Category)
+#### (17. ábra: BMS kiválasztott kategória)
 </center>  
 
+###### 3. **Könyv Részletek (Bejelentkezés Előtt)**
 
-###### 3. **Book Details (Before Login)**
+Könyv részletek látogatók számára.
 
-Book Detail for Visitors.
-
-Visitors Can’t add Books to Add to Cart.
+A látogatók nem tudnak könyveket a kosárba tenni.
 
 <center>  
 
 ![kep5](5.jpg)
 
-#### (Figure 18 : BMS Book Details)
+#### (18. ábra: BMS könyv részletei)
 </center>  
 
-###### 4. **Visitor Login Page**
+###### 4. **Látogató Bejelentkezési Oldal**
 
-Login Page for Viewers.
+Bejelentkezési oldal a nézőknek.
 
 <center>  
 
 ![kep6](6.JPG) 
 
-#### (Figure 19 : BMS Login Page)
+#### (19. ábra: BMS bejelentkezési oldal)
 </center>  
 
-###### 5. **Register Page**
+###### 5. **Regisztrációs Oldal**
 
-Register Page for Viewers.
+Regisztrációs oldal a nézőknek.
 
 <center>  
 
 ![kep31](31.JPG) 
 
-#### (Figure 20 : BMS Register Page)
+#### (20. ábra: BMS regisztrációs oldal)
 </center>  
 
-###### 6. **Contact Us Page**
+###### 6. **Kapcsolatfelvételi Oldal**
 
 <center>  
 
 ![kep32](32.JPG) 
 
-#### (Figure 21 : BMS Contact Us Page)
+#### (21. ábra: BMS kapcsolatfelvételi oldal)
 </center>  
 
-###### 7. **Cart Page**
+###### 7. **Kosár Oldal**
 
 <center>  
 
 ![kep33](33.JPG)
- 
 
-#### (Figure 22 : BMS Cart Page Viewers)
+#### (22. ábra: BMS kosár nézet a nézőknek)
 </center>  
 
-###### 8. **Order Page**
+###### 8. **Rendelési Oldal**
 
-Only Cash On Delivery is Available for Orders.
+Csak utánvétes fizetés elérhető a rendelésekhez.
 
 <center>  
 
 ![kep34](34.JPG) 
 
-#### (Figure 23 : BMS Order Page)
+#### (23. ábra: BMS rendelési oldal)
 </center>  
 
-###### 9. **Home Page (Logged In)**
+###### 9. **Főoldal (Bejelentkezve)**
 
-Automatically Navigation Bar Changed.
+Automatikusan megváltozott a navigációs sáv.
 
-User Can Log Out.
+A felhasználó ki tud jelentkezni.
 
 <center>  
 
 ![kep35](35.JPG)  
 
-#### (Figure 24 : BMS Logged in Page)
+#### (24. ábra: BMS bejelentkezett oldal)
 </center>  
 
-###### 10. **Book Details (Logged In)**
+###### 10. **Könyv Részletek (Bejelentkezve)**
 
-Users can Add Book To Add to cart.
+A felhasználók hozzáadhatják a könyveket a kosárhoz.
 
-Removed Sign in Link.
+Eltávolítva a bejelentkezés linkje.
 
 <center>  
 
 ![kep36](36.JPG) 
 
-#### (Figure 25 : BMS Users Book Details)
+#### (25. ábra: BMS felhasználók könyv részletei)
 </center>  
 
-###### 11. **Add to Cart (Logged In)**
+###### 11. **Kosárba Tétele (Bejelentkezve)**
 
-Users Can add books to add to cart.
+A felhasználók könyveket adhatnak a kosárhoz.
 
-Details of books and price.
+Könyvek és árak részletei.
 
-Click Recalculate to Qty, Rate and Total will Calculate.
+Kattintson a Számítás újraszámítására, hogy a mennyiség, ár és összeg kiszámításra kerüljön.
 
-Users can order Books.
+A felhasználók rendelhetnek könyveket.
 
 <center>  
 
 ![kep37](37.JPG)
-  
-#### (Figure 26 : BMS Users Cart Page)
+
+#### (26. ábra: BMS felhasználók kosár oldala)
 </center>  
 
-###### 12. **Search Books**
+###### 12. **Könyvek Keresése**
 
-Book Search Feature.
+Könyvkereső funkció.
 
 <center>  
 
 ![kep38](38.JPG)
- 
 
-#### (Figure 27 : BMS Search Books)
+#### (27. ábra: BMS könyvek keresése)
 </center>  
 
-###### 13. **Admin Login Page (New Template)**
+###### 13. **Admin Bejelentkezési Oldal (Új Sablon)**
 
 <center>  
 
 ![kep39](39.JPG)
 
-#### (Figure 28 : BMS Admin Login page)
+#### (28. ábra: BMS admin bejelentkezési oldal)
 </center>  
 
-###### 14. **Admin Home Page**
+###### 14. **Admin Főoldal**
 
-New Template.
+Új sablon.
 
 <center>  
 
 ![kep40](40.JPG)
 
-#### (Figure 29 : BMS Admin Home Page)
+#### (29. ábra: BMS admin főoldal)
 </center>  
 
-###### 15. **Add Category (Admin)**
+###### 15. **Kategória Hozzáadása (Admin)**
 
 <center>  
 
 ![kep41](41.JPG)
 
-#### (Figure 30 : BMS Add New Category)
+#### (30. ábra: BMS új kategória hozzáadása)
 </center>  
 
-###### 16. **View Category**
+###### 16. **Kategória Megtekintése**
 
-List of Books.
+Könyvek listája.
 
 <center>  
 
 ![kep432](42.JPG)
 
-#### (Figure 31 : BMS View Category)
+#### (31. ábra: BMS kategória megtekintése)
 </center>  
 
-###### 17. **Add Books**
+###### 17. **Könyvek Hozzáadása**
 
 <center>  
 
 ![kep43](43.JPG)
 
-#### (Figure 32 : BMS Add New Books)
+#### (32. ábra: BMS új könyvek hozzáadása)
 </center>  
 
-###### 18. **View Books**
+###### 18. **Könyvek Megtekintése**
 
-List Books for Admin.
+Könyvek listája az admin számára.
 
 <center>  
 
 ![kep44](44.JPG)
 
-#### (Figure 33 : BMS View Books)
+#### (33. ábra: BMS könyvek megtekintése)
 </center>  
 
-###### 19. **View Contacted List**
+###### 19. **Kapcsolatba Lépett Lista Megtekintése**
 
-List of People who Contacted using Contacted Page.
+Azoknak az embereknek a listája, akik kapcsolatba léptek a kapcsolatfelvételi oldalon.
 
 <center>  
 
 ![kep45](45.JPG)
 
-#### (Figure 34 : BMS Contacted List Books)
+#### (34. ábra: BMS kapcsolatba lépett könyvek listája)
 </center>
 
-###### 20. **Users List**
+###### 20. **Felhasználók Listája**
 
 <center>  
 
 ![kep46](46.JPG)
 
-#### (Figure 35 : BMS Users List)
+#### (35. ábra: BMS felhasználók listája)
 </center>
 
-###### 21. **Forget Password**
+###### 21. **Jelszó Elfelejtve**
 
 <center>  
 
 ![kep47](47.JPG)
 
-#### (Figure 36 : BMS Forget Password Page)
+#### (36. ábra: BMS jelszó elfelejtve oldal)
 </center>
 
-# Chapter 4
+# 4. fejezet
 
-## [Testing And Implementation](#testing_and_impementation)
+## [Tesztelés és megvalósítás](#testing_and_impementation)
 
-### [4.1 Testing Approach Used](#testing_approach_used)
+### [4.1 Használt tesztelési megközelítés](#testing_approach_used)
 
-#### -  **Black box testing**
+#### - **Fekete doboz tesztelés**
 
-Black-box testing is a method of software testing that examines the functionality of an application based on the specifications. It is also known as specifications based .
+A fekete doboz tesztelés egy szoftvertesztelési módszer, amely egy alkalmazás funkcionalitását vizsgálja a specifikációk alapján. Specifikáció alapú tesztelésnek is nevezik.
 
-Testing Independent testing team usually perform this type of testing during the software testing life cycle.
+A független tesztelő csapat általában a szoftvertesztelési életciklus során végzi ezt a típusú tesztelést.
 
-This method of test can be applied to each and every level of software testing such as unit, integration, system and acceptance testing.
+Ez a tesztelési módszer alkalmazható a szoftvertesztelés minden szintjén, például egység, integráció, rendszer és elfogadási tesztelés során.
 
-<center>  
+<center>
 
 ![kep48](48.JPG)
 
-#### (Figure 37 : Black Box Testing)
-</center>  
+#### (37. ábra: Fekete doboz tesztelés)
+</center>
 
-This method is named so because the software program, in the eyes of the tester, is like a black box; inside which one cannot see. This method attempts to find errors in the following categories:
+Ezt a módszert azért nevezzük így, mert a szoftverprogram a tesztelő szemében egy fekete doboznak tűnik; belülről nem lehet látni. Ez a módszer a következő kategóriákban próbál hibákat találni:
 
-- Incorrect or missing functions
-    -  Interface errors
-    -  Errors in data structures or external database access
-    - Behavior or performance errors
-    - Initialization and termination errors
+- Hibás vagy hiányzó funkciók
+    - Felhasználói felületi hibák
+    - Hibák az adatszerkezetekben vagy külső adatbázis-hozzáférésben
+    - Viselkedési vagy teljesítményi hibák
+    - Inicializálási és leállítási hibák
 
--  **Advantages of Black box Testing**
+- **A fekete doboz tesztelés előnyei**
 
-Tests are done from a user’s point of view and will help in exposing discrepancies in the specifications.
+A tesztek a felhasználó szempontjából készülnek, és segítenek feltárni a specifikációkkal kapcsolatos eltéréseket.
 
-Tester need not know programming languages or how the software has been implemented.
+A tesztelőnek nem szükséges programozási nyelveket ismernie vagy tudnia, hogyan valósították meg a szoftvert.
 
-#### - **White box testing**
+#### - **Fehér doboz tesztelés**
 
-White box testing is a testing technique That examines the program structure and derives test data from the program logic/code. The other names of glass box testing are clear box testing, open box testing, logic driven testing or path driven testing or structural testing.
+A fehér doboz tesztelés egy olyan tesztelési technika, amely megvizsgálja a program szerkezetét, és a program logikájából/kódjából származtat tesztadatokat. A fehér doboz tesztelés másik neve az üveg doboz tesztelés, tiszta doboz tesztelés, nyitott doboz tesztelés, logika vezérelt tesztelés vagy útvonalvezérelt tesztelés.
 
-White box testing involves looking at the structure of the code. When you know the internal structure of a product, tests can be conducted to ensure that the internal operations performed according to the specification. And all internal components have been adequately exercised.
+A fehér doboz tesztelés során a kód szerkezetét nézzük. Amikor ismerjük egy termék belső struktúráját, a tesztek elvégezhetők annak biztosítására, hogy a belső műveletek a specifikációnak megfelelően történjenek, és minden belső komponens megfelelően működjön.
 
-- **White box testing techniques:**
+- **Fehér doboz tesztelési technikák:**
 
-    - A - Statement Coverage – This technique is aimed at exercising all programming statements with minimal tests.
-    - B - Branch Coverage – This technique is running a series of tests to ensure that all branches are tested at least once.
-    - C - Path coverage – This technique corresponds to testing all possible paths which means that each statement and branches is covered.
+    - A - Nyilatkozat lefedettség – Ez a technika célja, hogy a lehető legkevesebb teszttel fedje le az összes programozási nyilatkozatot.
+    - B - Ág lefedettség – Ez a technika sorozat tesztelését jelenti, hogy biztosítsa, hogy minden ág legalább egyszer legyen tesztelve.
+    - C - Útvonal lefedettség – Ez a technika minden lehetséges útvonal tesztelésére vonatkozik, ami azt jelenti, hogy minden nyilatkozatot és ágat le kell fedni.
 
-- **Advantages of white box Testing:**
+- **A fehér doboz tesztelés előnyei:**
 
-    - 1 - Forces test developer to reason carefully about implementation.
-    - 2 - Reveals errors in “hidden” code.
-    - 3 - Sports the code or other issues with respect to best programming practices.
+    - 1 - Kényszeríti a tesztfejlesztőt, hogy gondosan mérlegelje a megvalósítást.
+    - 2 - Feltárja a „rejtett” kódban lévő hibákat.
+    - 3 - Feltárja a kód vagy más problémákat a legjobb programozási gyakorlatokkal kapcsolatban.
 
-#### - **Gray-box Testing:**
+#### - **Szürke doboz tesztelés:**
 
-Grey-box testing is a testing technique performed with limited information about the internal functionality of the system. Grey-box testers have access to the detailed design information about requirements.
+A szürke doboz tesztelés egy olyan tesztelési technika, amelyet a rendszer belső funkcionalitásáról korlátozott információval hajtanak végre. A szürke doboz tesztelők hozzáféréssel rendelkeznek a követelmények részletes tervezési információihoz.
 
-Grey box are generated based on the state based modes, UML diagrams or of the target system.
+A szürke doboz tesztek az állapotalapú modellek, UML diagramok vagy a célrendszer alapján készülnek.
 
-Grey Box Testing is a technique to test the software product or application with partial knowledge of the internal workings of an application.
+A szürke doboz tesztelés egy technika, amely a szoftvertermék vagy alkalmazás tesztelésére szolgál, részleges ismeretekkel az alkalmazás belső működéséről.
 
-<center>  
+<center>
 
 ![kep49](49.JPG)
 
-#### (Figure 38 : Gray Box Testing Testing)
-</center>  
+#### (38. ábra: Szürke doboz tesztelés)
+</center>
 
-### [4.2 Test Cases](#test_cases)
+### [4.2 Tesztesetek](#test_cases)
 
-**4.2.1 Admin Login Detail**
+**4.2.1 Admin bejelentkezési részletek**
 
-<table><tbody><tr><th><p>Username</p></th><th><p>Admin</p></th><th><p>Password</p></th><th><p>Admin</p></th></tr><tr><td colspan="4"><p>Expected Result :</p><ul><li>If fields empty then gives a error for fill up fields</li><li>If password or username does not exist then gives error for valid detail.</li></ul></td></tr></tbody></table>
+<table><tbody><tr><th><p>Felhasználónév</p></th><th><p>Admin</p></th><th><p>Jelszó</p></th><th><p>Admin</p></th></tr><tr><td colspan="4"><p>Várt eredmény:</p><ul><li>Ha a mezők üresek, akkor hibaüzenetet ad a mezők kitöltésére</li><li>Ha a jelszó vagy felhasználónév nem létezik, akkor hibaüzenetet ad érvényes adatokra.</li></ul></td></tr></tbody></table>
 
-**4.2.2 Login Detail**
+**4.2.2 Bejelentkezési részletek**
 
-<table><tbody><tr><th><p>Username</p></th><th><p>Dhaval</p></th><th><p>Password</p></th><th><p>Dhaval</p></th></tr><tr><td colspan="4"><p>Expected Result :</p><ul><li>If fields empty then gives a error for fill up fields</li><li>If password or username does not exist then gives error for valid detail.</li></ul></td></tr></tbody></table>
+<table><tbody><tr><th><p>Felhasználónév</p></th><th><p>Dhaval</p></th><th><p>Jelszó</p></th><th><p>Dhaval</p></th></tr><tr><td colspan="4"><p>Várt eredmény:</p><ul><li>Ha a mezők üresek, akkor hibaüzenetet ad a mezők kitöltésére</li><li>Ha a jelszó vagy felhasználónév nem létezik, akkor hibaüzenetet ad érvényes adatokra.</li></ul></td></tr></tbody></table>
 
-**4.2.3 Registration Details**
+**4.2.3 Regisztrációs részletek**
 
-<table><tbody><tr><th><p>Username</p></th><th><p>EMPTY</p></th><th><p>Password</p></th><th><p>EMPTY</p></th></tr><tr><td><p>Full Name</p></td><td><p>EMPTY</p></td><td><p>Security Answer</p></td><td><p>EMPTY</p></td></tr><tr><td colspan="4"><p>Expected Result :</p><ul><li>If fields empty then gives a error for fill up fields</li><li>If password or username does not exist then gives error for valid detail.</li><li>If password is &lt; 8 characters then it will gives error.</li></ul></td></tr></tbody></table>
+<table><tbody><tr><th><p>Felhasználónév</p></th><th><p>ÜRES</p></th><th><p>Jelszó</p></th><th><p>ÜRES</p></th></tr><tr><td><p>Teljes név</p></td><td><p>ÜRES</p></td><td><p>Biztonsági válasz</p></td><td><p>ÜRES</p></td></tr><tr><td colspan="4"><p>Várt eredmény:</p><ul><li>Ha a mezők üresek, akkor hibaüzenetet ad a mezők kitöltésére</li><li>Ha a jelszó kevesebb, mint 8 karakter, akkor hibaüzenetet ad.</li></ul></td></tr></tbody></table>
 
-**4.2.4 Order Details**
+**4.2.4 Rendelési részletek**
 
-<table><tbody><tr><th><p>Full Name</p></th><th><p>Address</p></th><th><p>Contact Number</p></th><th><p>EMPTY</p></th></tr><tr><td colspan="4"><p>Expected Result :</p><ul><li>If fields empty then gives a error for fill up fields</li><li>If contact number is not Numeric then gives error</li></ul></td></tr></tbody></table>
+<table><tbody><tr><th><p>Teljes név</p></th><th><p>Cím</p></th><th><p>Kapcsolattartó szám</p></th><th><p>ÜRES</p></th></tr><tr><td colspan="4"><p>Várt eredmény:</p><ul><li>Ha a mezők üresek, akkor hibaüzenetet ad a mezők kitöltésére</li><li>Ha a kapcsolattartó szám nem numerikus, akkor hibaüzenetet ad.</li></ul></td></tr></tbody></table>
 
-<center><u>  
+<center><u>
 
-**Screen-Shots**  
-</u></center>  
+**Képernyőfotók**  
+</u></center>
 
+1. **Felhasználói bejelentkezés**
 
-1. **User Login**
-
-<center>  
+<center>
 
 ![kep50](50.JPG)
 
-#### (Figure 39 : Test Cases 1)
-</center>  
+#### (39. ábra: Tesztesetek 1)
+</center>
 
-2. **Admin Login**
+2. **Admin bejelentkezés**
 
-<center>  
+<center>
 
 ![kep51](51.JPG)
 
-#### (Figure 40 : Text Cases 2)
-</center>  
+#### (40. ábra: Tesztesetek 2)
+</center>
 
-3. **Add Book**
+3. **Könyv hozzáadása**
 
-<center>  
+<center>
 
 ![kep52](52.JPG)
 
-#### (Figure 41 : Text Cases 3)
-</center>  
+#### (41. ábra: Tesztesetek 3)
+</center>
 
-4. **User Registration**
+4. **Felhasználói regisztráció**
 
-<center>  
+<center>
 
 ![kep53](53.JPG)
 
-#### (Figure 42 : Text Cases 4)
-</center>  
+#### (42. ábra: Tesztesetek 4)
+</center>
 
-### [4.3 Implementation approaches](#implementation_approaches)
+### [4.3 Megvalósítási megközelítések](#implementation_approaches)
 
-Far the biggest challenge encountered was time constraints. Implementation takes an extraordinary amount of time and a large amount of coordination. Scheduling project meetings around every group member’s schedule has been nearly impossible. Many of the group members were unable to devote the amount of focus that the implementation stage required. Both the former and the latter problem may be more of an issue in the academic environment where priorities of the different group members are skewed in a variety of directions. Another issue that cropped up was knowledge of the PHP programming. At least two of the four group members were unfamiliar with PHP Swing API, which is php primary user interface package. Again, this may not be as much of an issue in software engineering outside the academic arena.
+A legnagyobb kihívás, amellyel szembesültünk, az időkorlátok voltak. A megvalósítás rendkívüli mennyiségű időt és sok koordinációt igényel. A projektmegbeszélések ütemezése minden csoporttag időbeosztásához szinte lehetetlennek bizonyult. A csoporttagok közül sokan nem tudtak annyi figyelmet szentelni, amennyire a megvalósítási szakasznak szüksége volt. Az előző és a későbbi probléma talán inkább a tudományos környezetben jelentkezik, ahol a különböző csoporttagok prioritásai különböző irányokba torzulnak. Egy másik felmerült probléma a PHP programozás ismerete volt. Legalább két csoporttag nem volt tisztában a PHP Swing API-val, amely a PHP alapvető felhasználói felület csomagja. Ismételten, ez lehet, hogy nem jelentkezik akkora problémaként a szoftvermérnökség területén kívül, mint az akadémiai környezetben.
 
-One of tools we found very useful, in situations where member responsibilities need to be hashed out, is the responsibility matrix. It has really been the only tool that has allowed us to continue making progress. Everyone is assigned a task, and everyone is held accountable for the completion of their assigned task. It also allows us to track tasks that need to be done. The responsibility matrix has proven to be an invaluable tool in the software engineering process.
+Az egyik eszköz, amelyet nagyon hasznosnak találtunk olyan helyzetekben, ahol a tagok felelősségeit tisztázni kell, a felelősségi mátrix. Ez valóban az egyetlen eszköz volt, amely lehetővé tette számunkra a folyamatos előrehaladást. Mindenkinek feladatot osztottunk ki, és mindenki felelős a saját feladatának elvégzéséért. Ez lehetővé teszi számunkra, hogy nyomon kövessük a megvalósítandó feladatokat. A felelősségi mátrix felbecsülhetetlen eszköznek bizonyult a szoftvermérnöki folyamatban.
 
-# Chapter 5
 
-## [Conclusion](#conclusion)
+# 5. fejezet
 
-**Conclusion**
+## [Következtetés](#conclusion)
 
-- At the first look we can say that Bookstore Management System is a perfect system but it has many limitations that are as follow :
-- This is also used for list the category and books also manage the customer and books of the Bookstore.
-- The Bookstore Management System is used to give information of the Books to the customer.
-- We faced problems like Database creation, Flow of our system, designing of front end and back end tools, coding etc.
-- Only single user can use a system at a time.
-- In this system we cannot add a service module.
-- We learnt new languages like jQuery, PHP, Boot-Strap, HTML, CSS, etc..
+**Következtetés**
 
-### [5.1 Limitation of system](limitation_of_system)
+- Első ránézésre elmondhatjuk, hogy a Könyváruház Kezelő Rendszer egy tökéletes rendszer, de számos korlátozással rendelkezik, amelyek a következők:
+- Ezt a rendszert a kategóriák és könyvek listázására, valamint a vásárlók és könyvek kezelésére használják.
+- A Könyváruház Kezelő Rendszer célja, hogy információt adjon a könyvekről a vásárlóknak.
+- Számos problémával szembesültünk, mint például az adatbázis létrehozása, a rendszer folyamata, a frontend és backend eszközök tervezése, kódolás stb.
+- A rendszer csak egy felhasználó által használható egyszerre.
+- Ebben a rendszerben nem tudunk szolgáltatásmodult hozzáadni.
+- Új nyelveket tanultunk, mint például jQuery, PHP, Boot-Strap, HTML, CSS stb.
 
-- Help
+### [5.1 A rendszer korlátozásai](#limitation_of_system)
 
-Currently the help feature is not available. Using this functionality user can get help about the system.
+- **Segítség**
 
-- Payment
+Jelenleg a segítség funkció nem elérhető. E funkció használatával a felhasználó segítséget kaphat a rendszerrel kapcsolatban.
 
-Currently the feature of online payment is not available. User cannot give payment online.
+- **Fizetés**
 
-- Multilingual
+Jelenleg az online fizetés funkció nem elérhető. A felhasználó nem tud online fizetni.
 
-Multilingual is not supported in our system. Therefore user cannot work in different languages.
+- **Többnyelvűség**
 
-- Backup & Recovery:
+A többnyelvűség nem támogatott a rendszerünkben. Ezért a felhasználó nem tud különböző nyelveken dolgozni.
 
-User cannot take the backup or recover the data in this the system.
+- **Biztonsági mentés és visszaállítás**
 
-- Many More Others.
+A felhasználó nem tud biztonsági másolatot készíteni vagy adatokat visszaállítani a rendszerben.
 
-### [5.2 Future Scope of the System](#future_scope_of_the_system)
+- **Sok más egyéb.**
 
-- Help module
+### [5.2 A rendszer jövőbeli lehetőségei](#future_scope_of_the_system)
 
-Using this module user can get help on how to access the system. All functionalities of system are described in this module. And user can easily access the entire module using this feature.
+- **Segítség modul**
 
-- Online payment module
+E modul használatával a felhasználó segítséget kaphat a rendszerhez való hozzáférésről. A rendszer minden funkcióját leírják ebben a modulban. A felhasználó könnyen hozzáférhet az összes modulhoz ezen a funkción keresztül.
 
-User can do their payment online using this functionality. In future we will add the online payment for make payment easier for the user.
+- **Online fizetési modul**
 
-- Multilingual
+A felhasználó online végezheti el a fizetést e funkció használatával. A jövőben hozzáadjuk az online fizetést, hogy a felhasználók számára könnyebbé tegyük a kifizetéseket.
 
-In this system we will add the multilingual therefore user can work in different languages and understand easily.
+- **Többnyelvűség**
 
-### [5.3 Bibliography](#bibliography)
+Ebben a rendszerben hozzáadjuk a többnyelvűséget, így a felhasználó különböző nyelveken dolgozhat és könnyebben megértheti az információkat.
 
-##### Websites Used
+### [5.3 Bibliográfia](#bibliography)
+
+##### Használt weboldalak
 
 - [www.google.com](http://www.google.com)
 - [www.w3cschools.com](http://www.w3cschools.com)
@@ -972,7 +965,7 @@ In this system we will add the multilingual therefore user can work in different
 - [www.quora.com](http://www.quora.com)
 - [www.Scribd.com](http://www.Scribd.com)
 
-##### Apps Used
+##### Használt appok
 
 - Youtube
 - Solo Learn
